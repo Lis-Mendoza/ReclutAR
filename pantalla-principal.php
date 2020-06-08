@@ -2,12 +2,12 @@
 <?php
 	
 	
-	if(!isset($_GET['menu'])){
-		$menu="bienvenida.php";
-	}else{
-    $menu=$_GET['menu'];
-    $menu= $menu.".php";
- 
+	if ( !isset( $_GET[ 'menu' ] ) ) {
+	$menu = "bienvenida.php";
+} else {
+	$menu = $_GET[ 'menu' ];
+	$menu = $menu . ".php";
+
   
 	}
 
@@ -27,43 +27,52 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- favicon
 		============================================ -->
-	<link rel="shortcut icon" type="image/x-icon" href="../Pantallas/img/favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<!-- Google Fonts
 		============================================ -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i,800" rel="stylesheet">
 	<!-- Bootstrap CSS
 		============================================ -->
-	<link rel="stylesheet" href="../Pantallas/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Bootstrap CSS
 		============================================ -->
-	<link rel="stylesheet" href="../Pantallas/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<!-- adminpro icon CSS
 		============================================ -->
-	<link rel="stylesheet" href="../Pantallas/css/adminpro-custon-icon.css">
+	<link rel="stylesheet" href="css/adminpro-custon-icon.css">
 	<!-- meanmenu icon CSS
 		============================================ -->
-	<link rel="stylesheet" href="../Pantallas/css/meanmenu.min.css">
+	<link rel="stylesheet" href="css/meanmenu.min.css">
 	<!-- mCustomScrollbar CSS
 		============================================ -->
-	<link rel="stylesheet" href="../Pantallas/css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
 	<!-- animate CSS
 		============================================ -->
-	<link rel="stylesheet" href="../Pantallas/css/animate.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<!-- normalize CSS
 		============================================ -->
-	<link rel="stylesheet" href="../Pantallas/css/normalize.css">
+	<link rel="stylesheet" href="css/normalize.css">
 	<!-- form CSS
 		============================================ -->
-	<link rel="stylesheet" href="../Pantallas/css/form.css">
+	<link rel="stylesheet" href="css/form.css">
 	<!-- style CSS
 		============================================ -->
-	<link rel="stylesheet" href="../Pantallas/style.css">
+	<link rel="stylesheet" href="style.css">
 	<!-- responsive CSS
 		============================================ -->
-	<link rel="stylesheet" href="../Pantallas/css/responsive.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	
+	<style type="text/css">
+		body,
+		td,
+		th {
+			font-family: "Open Sans", sans-serif;
+		}
+
+	</style>
 	<!-- modernizr JS
 		============================================ -->
-	<script src="../Pantallas/js/vendor/modernizr-2.8.3.min.js"></script>
+	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body class="materialdesign">
@@ -75,7 +84,7 @@
 		<div class="left-sidebar-pro">
 			<nav id="sidebar">
 				<div class="sidebar-header">
-					<a href="#"><img src="../Pantallas/cosmeticos.jpg" class="img-circle" alt="User Image"/>
+					<a href="#"><img src="cosmeticos.jpg" class="img-circle" alt="User Image"/>
                     </a>
 					<h3>Lis</h3>
 					<p>Cosmeticos</p>
@@ -153,7 +162,7 @@
 							
 
 								<div class="admin-logo logo-wrap-pro">
-									<a href="#"><img src="../Pantallas/ReclutarMovil.jpg" alt="" />
+									<a href="#"><img src="ReclutarMovil.jpg" alt="" />
                                     </a>
 								</div>
 							</div>
@@ -289,16 +298,18 @@
 				</div>
 			</div>
 		</div>
+		
+		
+		<?php
+		include( $menu );
+  
+		?>
 		<!-- Mobile Menu end -->
 		<!-- Breadcome start-->
 
 		<!-- Breadcome End-->
 		<!-- login Start-->
 
-		<?php
-		include( $menu );
-  
-		?>
 		<!-- login End-->
 	</div>
 
@@ -307,30 +318,30 @@
 	<!-- Footer End-->
 	<!-- jquery
 		============================================ -->
-	<script src="../Pantallas/js/vendor/jquery-1.11.3.min.js"></script>
+	<script src="js/vendor/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap JS
 		============================================ -->
-	<script src="../Pantallas/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<!-- meanmenu JS
 		============================================ -->
-	<script src="../Pantallas/js/jquery.meanmenu.js"></script>
+	<script src="js/jquery.meanmenu.js"></script>
 	<!-- mCustomScrollbar JS
 		============================================ -->
-	<script src="../Pantallas/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<!-- sticky JS
 		============================================ -->
-	<script src="../Pantallas/js/jquery.sticky.js"></script>
+	<script src="js/jquery.sticky.js"></script>
 	<!-- scrollUp JS
 		============================================ -->
-	<script src="../Pantallas/js/jquery.scrollUp.min.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
 	<!-- form validate JS
 		============================================ -->
-	<script src="../Pantallas/js/jquery.form.min.js"></script>
-	<script src="../Pantallas/js/jquery.validate.min.js"></script>
-	<script src="../Pantallas/js/form-active.js"></script>
+	<script src="js/jquery.form.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/form-active.js"></script>
 	<!-- main JS
 		============================================ -->
-	<script src="../Pantallas/js/main.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
