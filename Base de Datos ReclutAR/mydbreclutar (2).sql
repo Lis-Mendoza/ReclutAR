@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-05-2020 a las 18:08:00
+-- Tiempo de generación: 30-06-2020 a las 01:49:48
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.5
 
@@ -382,16 +382,28 @@ INSERT INTO `stock` (`id_stock`, `cantidad`, `minimo`, `fecha_de_compra`) VALUES
 
 CREATE TABLE `usuario` (
   `id_cuenta` int(11) NOT NULL,
-  `nit` varchar(45) COLLATE utf8_bin NOT NULL,
-  `id_rol` int(11) NOT NULL,
+  `usuario` varchar(45) COLLATE utf8_bin NOT NULL,
+  `id_roles` int(11) NOT NULL,
   `id_negocio` int(11) DEFAULT NULL,
   `id_revendedor` int(11) DEFAULT NULL,
   `contrasenia` varchar(45) COLLATE utf8_bin NOT NULL,
   `pregunta_secreta` varchar(60) COLLATE utf8_bin NOT NULL,
   `respuesta_secreta` varchar(60) COLLATE utf8_bin NOT NULL,
   `fecha_alta` date NOT NULL,
-  `estado` varchar(20) COLLATE utf8_bin NOT NULL
+  `estado` varchar(20) COLLATE utf8_bin NOT NULL,
+  `intentos_sesión` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+--
+-- Volcado de datos para la tabla `usuario`
+--
+
+INSERT INTO `usuario` (`id_cuenta`, `usuario`, `id_roles`, `id_negocio`, `id_revendedor`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `fecha_alta`, `estado`, `intentos_sesión`) VALUES
+(3, 'lis', 1, NULL, NULL, 'lola', 'bruno', 'kiko', '2020-06-02', 'activo', 0),
+(4, 'martintejerina', 1, NULL, NULL, 'tejerina', '¿Cuan es tu color preferido?', 'azul', '2020-06-17', 'activo', 0),
+(5, 'fernando', 1, NULL, NULL, '1234', '¿cual es tu color preferido?', 'verde', '2020-06-10', 'activo', 0),
+(6, 'gonzalo', 1, NULL, NULL, '1234', '¿cual es tu color preferido?', 'negro', '2020-06-18', 'activo', 0),
+(13, 'mabel', 2, NULL, NULL, 'mendoza', '¿cual es tu color preferido?', 'amarillo', '2020-06-11', 'activo', 0);
 
 --
 -- Índices para tablas volcadas
@@ -493,8 +505,8 @@ ALTER TABLE `stock`
 -- Indices de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  ADD PRIMARY KEY (`id_cuenta`,`nit`),
-  ADD KEY `rol_usuario` (`id_rol`);
+  ADD PRIMARY KEY (`id_cuenta`,`usuario`),
+  ADD KEY `rol_usuario` (`id_roles`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -552,7 +564,7 @@ ALTER TABLE `roles`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id_cuenta` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_cuenta` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- Restricciones para tablas volcadas
@@ -621,7 +633,7 @@ ALTER TABLE `stock`
 -- Filtros para la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  ADD CONSTRAINT `rol_usuario` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_roles`);
+  ADD CONSTRAINT `rol_usuario` FOREIGN KEY (`id_roles`) REFERENCES `roles` (`id_roles`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
