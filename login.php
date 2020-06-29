@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-4"></div>
-			<form id="adminpro-form" class="adminpro-form">
+			<form id="adminpro-form" class="adminpro-form" action="validacionlogin.php" method="post">
 				<div class="col-lg-4">
 					<div class="login-bg">
 						<div class="row">
@@ -15,7 +15,7 @@
 						<div class="row">
 							<div class="col-lg-12">
 								<div class="login-title">
-									<h1>Iniciar sesion</h1>
+									<h1>Iniciar sesión</h1>
 								</div>
 							</div>
 						</div>
@@ -27,8 +27,8 @@
 							</div>
 							<div class="col-lg-8">
 								<div class="login-input-area">
-									<input type="email" name="email"/>
-									<i class="fa fa-envelope login-user" aria-hidden="true"></i>
+									<input type="text" name="usuario"/>
+									<i class="fa fa-user login-user" aria-hidden="true"></i>
 								</div>
 							</div>
 						</div>
@@ -59,7 +59,7 @@
 									<button type="button" class="btn btn-custon-four btn-primary ">Registrarse</button></a>
 								&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								<a href="pantalla-principal.php?menu=bienvenida">
-								<button type="button" class="btn btn-custon-four btn-primary "> Iniciar sesion </button></a>
+								<button type="submit" class="btn btn-custon-four btn-primary "> Iniciar sesión </button></a>
 							</div>
 						</div>
 					</div>

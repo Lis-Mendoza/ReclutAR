@@ -34,6 +34,7 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="login-input-area">
+													<i class="fa fa-briefcase login-user" aria-hidden="true"></i>
 													<input type="text" name="name"/>
 												</div>
 											</div>
@@ -63,16 +64,13 @@
 													<p>Domicilio del Negocio</p>
 												</div>
 											</div>
-											<div class="col-lg-6">
+											<div class="col-lg-8">
 												<div class="login-input-area">
 													<input type="text" name="domicilio"/>
+													<i class="fa fa-user login-user"></i>
 												</div>
 											</div>
-											<div class="col-lg-2">
-												<div class="login-input-area">
-													<input type="text" name="domicilio"/>
-												</div>
-											</div>
+											
 										</div>
 										<div class="row">
 											<div class="col-lg-4">
@@ -127,12 +125,13 @@
 											</div>
 										</div>
 										<br>
+										
 										<div class="form-group-inner">
 											<div class="row">
 												<div class="col-lg-4 ">
-													<p>&nbsp;&nbsp;&nbsp;Perfil del Negocio</p>
+													<p>&nbsp;&nbsp;&nbsp;foto perfil del Negocio</p>
 												</div>
-												<div class="col-lg-4">
+												<div class="col-lg">
 													<div class="file-upload-inner file-upload-inner-right ts-forms">
 														<div class="input append-small-btn">
 															<div class="col-lg-8 pull-right">
@@ -226,7 +225,11 @@
 											<div class="col-lg-4"></div>
 											<div class="col-lg-8">
 												<div class="login-button-pro">
-													<div class="col-xs-8">
+													<div class="button-style-four btn-mg-b-10">
+														<a href="index.php?menu=login">
+                                                <button type="button" class="btn btn-custon-four btn-primary" > Atras </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+															
+                                                </a>
 														<a href="index.php?menu=login"><button type="button" class="btn btn-custon-four btn-primary">Terminar Registro</button></a>
 														<br><br><br>
 													</div>

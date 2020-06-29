@@ -1,17 +1,4 @@
-<?php
 
-
-if ( !isset( $_GET[ 'menu' ] ) ) {
-	$menu = "bienvenida.php";
-} else {
-	$menu = $_GET[ 'menu' ];
-	$menu = $menu . ".php";
-
-
-}
-
-
-?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -96,7 +83,7 @@ if ( !isset( $_GET[ 'menu' ] ) ) {
 						</li>
 						<li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa big-icon fa-pie-chart"></i> <span class="mini-dn">Recluta y Gana</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
 							<div role="menu" class="dropdown-menu left-menu-dropdown animated flipInX">
-								<a href="../Pantallas/profile.html" class="dropdown-item">Bases y Condiciones </a>
+								<a href="../Pantallas/profile.html" class="dropdown-item">Bases y Condiciones</a>
 
 							</div>
 						</li>
@@ -140,7 +127,7 @@ if ( !isset( $_GET[ 'menu' ] ) ) {
 											<a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">Quiénes Somos  <span class="angle-down-topmenu"><i class="fa fa-angle-down"></i></span></a>
 											<div role="menu" class="dropdown-menu animated flipInX">
 												<a href="#" class="dropdown-item">Alumna:Lis Mendoza</a>
-												<a href="#" class="dropdown-item">Profesor:Martín Tejerina</a>
+												<a href="#" class="dropdown-item">Profesor:Martin Tejerina</a>
 												<a href="#" class="dropdown-item">Institución:I.F.T.S. 11</a>
 												<a href="#" class="dropdown-item">Materia:Seminario II</a>
 												<a href="#" class="dropdown-item">Año:2020</a>
@@ -158,8 +145,6 @@ if ( !isset( $_GET[ 'menu' ] ) ) {
 											</div>
 										</li>
 
-
-										
 										<li class="nav-item"><a href="index.php?menu=login" class="nav-link">Ingresar</a>
 										</li>
 										<li class="nav-item"><a href="index.php?menu=registro-perfil" class="nav-link">Registrarse</a>
@@ -195,7 +180,7 @@ if ( !isset( $_GET[ 'menu' ] ) ) {
 						<div class="mobile-menu">
 							<nav id="dropdown">
 								<ul class="mobile-menu-nav">
-									<li><a data-toggle="collapse" data-target="#Charts" href="index.php?menu=login">Iniciar sesión<span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
+									<li><a data-toggle="collapse" data-target="#Charts" href="index.php?menu=login">Iniciar seción<span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
 
 									</li>
 									<li><a data-toggle="collapse" data-target="#Miscellaneousmob" href="index.php?menu=registro-perfil">Registrarse <span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
@@ -203,11 +188,11 @@ if ( !isset( $_GET[ 'menu' ] ) ) {
 
 										</ul>
 									</li>
-									<li><a data-toggle="collapse" data-target="#others" href="#">¿Quienes somos?<span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
+									<li><a data-toggle="collapse" data-target="#others" href="#">¿		Quiénes somos?<span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
 										<ul id="others" class="collapse dropdown-header-top">
 											<li><a href="#">Alumna: Lis Mendoza</a>
 											</li>
-											<li><a href="#">Pofesor: Martín Tejerina</a>
+											<li><a href="#">Pofesor: Martin Tejerina</a>
 											</li>
 											<li><a href="#">Institución: I.F.T.S. 11</a>
 											</li>
@@ -218,22 +203,50 @@ if ( !isset( $_GET[ 'menu' ] ) ) {
 										</ul>
 									</li>
 
-									<li><a data-toggle="collapse" data-target="#Tablesmob" href="#">Contáctate con un Ascesor <span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
+									<li><a data-toggle="collapse" data-target="#Tablesmob" href="#">Contactate con un Ascesor <span class="admin-project-icon adminpro-icon adminpro-down-arrow"></span></a>
 										<ul id="Tablesmob" class="collapse dropdown-header-top">
 											<li><a href="#">Teléfono:11-5702-0698</a>
 											</li>
 											<li><a href="#">e-mail: reclut_ar@gmail.com</a>
 											</li>
-										</ul>
-									</li>
-									
-								</ul>
+										
 							</nav>
+										<br>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div> 
+		<br> <br> <br>
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4" align="center"></div>
+			<form id="adminpro-form" class="adminpro-form" action="validacionlogin.php" method="post">
+				<div class="col-lg-4">
+					<div class="login-bg">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="logo">
+									<a href="#"><img src="reclutar_logo.jpg" alt="" /></a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="login-title">
+									<h3>Error : ( </h3>
+									
+									<h1>Los datos ingresados no son correctos <br> <br>
+									vuelve a intentarlo !!! </h1>
+						</div>
+					</div>
+				</div>
+			</form>
+			<div class="col-lg-4"></div>
 		</div>
+	</div>
+</div>
+		
 		<!-- Mobile Menu end -->
 		<!-- Breadcome start-->
 		<div class="breadcome-area mg-b-30 des-none">
@@ -245,10 +258,8 @@ if ( !isset( $_GET[ 'menu' ] ) ) {
 				</div>
 			</div>
 		</div>
-		<?php
-		include( $menu );
-
-		?>
+		
+		
 		<!-- Breadcome End-->
 		<!-- login Start-->
 

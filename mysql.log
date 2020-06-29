@@ -1,0 +1,96 @@
+2020-06-29 08:50:21
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = '' 
+2020-06-29 08:51:44
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = '' 
+2020-06-29 08:52:44
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = '' 
+2020-06-29 08:54:33
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = '' 
+2020-06-29 08:57:50
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = '' 
+2020-06-29 09:00:10
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = '' 
+2020-06-29 09:01:37
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = '' 
+2020-06-29 09:02:17
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
+2020-06-29 09:05:36
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
+2020-06-29 09:21:56
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
+2020-06-29 09:23:33
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
+2020-06-29 09:25:58
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
+2020-06-29 09:58:18
+SELECT * FROM `usuario` WHERE usuario = 'ksks' AND contrasenia = 'sdfsd' 
+2020-06-29 10:01:36
+SELECT * FROM `usuario` WHERE usuario = 'jsjsjsjs' AND contrasenia = 'dfvgdfv' 
+2020-06-29 10:02:10
+SELECT * FROM `usuario` WHERE usuario = 'cvs' AND contrasenia = 'dfesfv' 
+2020-06-29 10:15:11
+SELECT * FROM `usuario` WHERE usuario = 'sdfefgfef' AND contrasenia = 'sdfedfg' 
+2020-06-29 10:19:53
+SELECT * FROM `usuario` WHERE usuario = 'sdfefgfef' AND contrasenia = 'sdvfsvfds' 
+2020-06-29 10:22:30
+SELECT * FROM `usuario` WHERE usuario = 'xcvs' AND contrasenia = 'xcvdfv' 
+2020-06-29 10:23:09
+SELECT * FROM `usuario` WHERE usuario = 'abu' AND contrasenia = 'jwedweendjk' 
+2020-06-29 10:26:37
+SELECT * FROM `usuario` WHERE usuario = 'dfcsdcdf' AND contrasenia = 'scvsdv' 
+2020-06-29 10:27:31
+SELECT * FROM `usuario` WHERE usuario = 'sdcfdcdcsd' AND contrasenia = 'dcdscdds' 
+2020-06-29 10:35:51
+SELECT * FROM `usuario` WHERE usuario = 'dsdsds' AND contrasenia = 'zxcz' 
+2020-06-29 10:40:19
+SELECT * FROM `usuario` WHERE usuario = 'sdfefgfef' AND contrasenia = 'dfgd' 
+2020-06-29 11:21:45
+SELECT * FROM `usuario` WHERE usuario = 'nsns' AND contrasenia = 'xnkNX' 
+2020-06-29 11:27:17
+SELECT * FROM `usuario` WHERE usuario = 'jxzx' AND contrasenia = 'sdsds' 
+2020-06-29 11:30:06
+SELECT * FROM `usuario` WHERE usuario = 'cvs' AND contrasenia = 'sdadada' 
+2020-06-29 11:30:50
+SELECT * FROM `usuario` WHERE usuario = 'sdada' AND contrasenia = 'dsaasa' 
+2020-06-29 11:31:48
+SELECT * FROM `usuario` WHERE usuario = 'ssdas' AND contrasenia = 'fsfsfds' 
+2020-06-29 11:34:50
+SELECT * FROM `usuario` WHERE usuario = 'sdfefgfef' AND contrasenia = 'sasdSD' 
+2020-06-29 11:35:53
+SELECT * FROM `usuario` WHERE usuario = 'dfcsdcdf' AND contrasenia = 'hhjjkhjk' 
+2020-06-29 11:36:19
+SELECT * FROM `usuario` WHERE usuario = 'dfcsdcdf' AND contrasenia = 'dsd' 
+2020-06-29 11:36:29
+SELECT * FROM `usuario` WHERE usuario = 'dfcsdcdf' AND contrasenia = 'jHskshksh' 
+2020-06-29 11:36:59
+SELECT * FROM `usuario` WHERE usuario = 'nx' AND contrasenia = 'fffedsd' 
+2020-06-29 11:37:32
+SELECT * FROM `usuario` WHERE usuario = 'nx' AND contrasenia = 'hhhhhhh' 
+2020-06-29 11:39:17
+SELECT * FROM `usuario` WHERE usuario = 'bjb' AND contrasenia = 'bbbbbj' 
+2020-06-29 11:40:59
+SELECT * FROM `usuario` WHERE usuario = 'hbhb' AND contrasenia = 'hbhbhbhb' 
+2020-06-29 11:47:47
+SELECT * FROM `usuario` WHERE usuario = 'hbhb' AND contrasenia = 'bjjb' 
+2020-06-29 11:51:21
+SELECT * FROM `usuario` WHERE usuario = 'hbhb' AND contrasenia = 'nnnmnnm' 
+2020-06-29 11:52:13
+SELECT * FROM `usuario` WHERE usuario = 'hbhb' AND contrasenia = 'nmbm' 
+2020-06-29 12:04:59
+SELECT * FROM `usuario` WHERE usuario = '  ,m,m,' AND contrasenia = 'm,m,m,' 
+2020-06-29 12:52:29
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'nnmn' 
+2020-06-29 12:59:18
+SELECT * FROM `usuario` WHERE usuario = 'dfcsdcdf' AND contrasenia = 'sdsd' 
+2020-06-29 13:05:43
+SELECT * FROM `usuario` WHERE usuario = 'martintejerina' AND contrasenia = 'tejerina' 
+2020-06-29 13:07:02
+SELECT * FROM `usuario` WHERE usuario = 'fernando' AND contrasenia = '1234' 
+2020-06-29 13:19:29
+SELECT * FROM `usuario` WHERE usuario = 'martintejerina' AND contrasenia = 'tejeri' 
+2020-06-29 22:23:49
+SELECT * FROM `usuario` WHERE usuario = 'mabel' AND contrasenia = 'mendoza' 
+2020-06-29 22:24:29
+SELECT * FROM `usuario` WHERE usuario = 'mabel' AND contrasenia = 'gvbygjb uh' 
+2020-06-29 23:54:03
+SELECT * FROM `usuario` WHERE usuario = 'ef' AND contrasenia = 'efr' 

@@ -1,5 +1,5 @@
 <div class="x-editable-area mg-b-15 pull-right">
-	<div class="container-fluid">
+	<div class="container-fluid"> <br>
 		<div class="row">
 			<div class="col-lg-9 fa-pull-right">
 				<div class="x-editable-list shadow-reset">
@@ -12,10 +12,10 @@
 							</div>
 						</div>
 						<br>
-						<h2>Sistema de Gestion del Personal de Reventa</h2>
+						<h2>Sistema de Gestión del Personal de Reventa</h2>
 						<h>Bienvenido!!!</h>
 						<br><br>
-						<p>ReclutAR te brindará las herramientas necesarias para que puedas expandir tu Negocio de la manera mas Eficaz y Eficiente, la globalizacion es el ahora, la tecnologia será tu mejor aliada y ReclutAR desde ahora sera tu mano derecha.<br> Incorporá e incentivá a tus revendedores a ReclutAR expande los alcances de tu Negocio.<br><br> Recuerda que Muchos Venden Mejor que Uno!</p>
+						<p>ReclutAR te brindará las herramientas necesarias para que puedas expandir tu Negocio de la manera mas Eficaz y Eficiente. La globalización es el ahora, la tecnología será tu mejor aliada y ReclutAR desde ahora sera tu mano derecha.<br> Incorpora e incentiva a tus revendedores a ReclutAR expande los alcances de tu Negocio.<br><br> Recuerda que Muchos Venden Mejor que Uno!</p>
 					</div>
 				</div>
 			</div>
