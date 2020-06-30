@@ -94,3 +94,5 @@ SELECT * FROM `usuario` WHERE usuario = 'mabel' AND contrasenia = 'mendoza'
 SELECT * FROM `usuario` WHERE usuario = 'mabel' AND contrasenia = 'gvbygjb uh' 
 2020-06-29 23:54:03
 SELECT * FROM `usuario` WHERE usuario = 'ef' AND contrasenia = 'efr' 
+2020-06-30 02:08:48
+SELECT * FROM `usuario` WHERE usuario = 'ef' AND contrasenia = 'dfdfesd' 

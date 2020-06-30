@@ -37,7 +37,7 @@ if(count($resultado)==1){
 
 session_start(); 
 	
-	
+	/*creamos un elemento en el array $_SESSION y le asignamos un valor.*/
 	function session_set($nombre, $valor){
 		$_SESSION[$nombre]=$valor;
 	} 

@@ -1,9 +1,6 @@
 <?
-/*Ese codigo lo estoy incluyendo con la funcion require_once antes que cualquier etiqueta html.
-Es el que estabamos usando en el curso. Hoy le agregue session_terminate porque nosotros lo haciamos a manopla
-porque asi lo requeriamos en otras partes del codigo.
-*/
-	session_start(); /*siempre presente para interactuar con la sesion.*/
+
+	session_start(); 
 	
 	/*creamos un elemento en el array $_SESSION y le asignamos un valor.*/
 	function session_set($nombre, $valor){
