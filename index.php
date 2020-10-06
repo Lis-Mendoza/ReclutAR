@@ -140,9 +140,9 @@ if ( !isset( $_GET[ 'menu' ] ) ) {
 											<a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">Quiénes Somos  <span class="angle-down-topmenu"><i class="fa fa-angle-down"></i></span></a>
 											<div role="menu" class="dropdown-menu animated flipInX">
 												<a href="#" class="dropdown-item">Alumna:Lis Mendoza</a>
-												<a href="#" class="dropdown-item">Profesor:Martín Tejerina</a>
+												<a href="#" class="dropdown-item">Profesores: <br>Cesar Conejeros <br>Fernando La Rosa</a>
 												<a href="#" class="dropdown-item">Institución:I.F.T.S. 11</a>
-												<a href="#" class="dropdown-item">Materia:Seminario II</a>
+												<a href="#" class="dropdown-item">Materia:<br>Desarrollo Web <br>PP III</a>
 												<a href="#" class="dropdown-item">Año:2020</a>
 
 											</div>
@@ -207,11 +207,11 @@ if ( !isset( $_GET[ 'menu' ] ) ) {
 										<ul id="others" class="collapse dropdown-header-top">
 											<li><a href="#">Alumna: Lis Mendoza</a>
 											</li>
-											<li><a href="#">Pofesor: Martín Tejerina</a>
+											<li><a href="#">Profesores:<br> Cesar Conejeros <br>Fernando La Rosa</a>
 											</li>
 											<li><a href="#">Institución: I.F.T.S. 11</a>
 											</li>
-											<li><a href="#">Materia: Seminario II</a>
+											<li><a href="#">Materia:<br>Desarrollo Web <br>PP III<br> </a>
 											</li>
 											<li><a href="#">Año: 2020</a>
 											</li>

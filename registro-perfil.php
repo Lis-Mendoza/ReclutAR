@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-4"></div>
-			<form id="adminpro-form" class="adminpro-form">
+			<form id="adminpro-form" class="adminpro-form" action="validacionlogin.php" method="post">
 				<div class="login-form-area mg-t-30 mg-b-15">
 					<div class="container-fluid">
 						<div class="row">
@@ -33,7 +33,7 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="text" name="name"/>
+													<input type="text" name="nombre"/>
 													<i class="fa fa-user login-user"></i>
 												</div>
 											</div>
@@ -46,7 +46,7 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="text" name="username"/>
+													<input type="text" name="apellido"/>
 													<i class="fa fa-user login-user"></i>
 												</div>
 											</div>
@@ -60,7 +60,7 @@
 
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="text" name="username"/>
+													<input type="text" name="dni"/>
 													<i class="fa fa-user login-user"></i>
 												</div>
 											</div>
@@ -68,13 +68,13 @@
 										<div class="row" style="">
 											<div class="col-lg-4">
 												<div class="login-input-head">
-													<p></p>
+													<p>Fecha Nacimiento</p>
 												</div>
 											</div>
 											<br>
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="date" name="start" id="start"/>
+													<input type="date" name="fecha_nacimiento" id="start"/>
 
 												</div>
 											</div>
@@ -85,47 +85,14 @@
 													<p>Domicilio</p>
 												</div>
 											</div>
-											<div class="col-lg-6">
-												<div class="login-input-area">
-													<input type="text" name="domicilio"/>
-
-												</div>
-
-											</div>
-
-											<div class="col-lg-2">
-												<div class="login-input-area">
-													<input type="text" name="domicilio"/>
-
-												</div>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Provincia</p>
-												</div>
-											</div>
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="text" name="provincia"/>
+													<input type="text" name="domicilio"/>
 													<i class="fa fa-user login-user"></i>
 												</div>
 											</div>
 										</div>
-										<div class="row">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Localidad</p>
-												</div>
-											</div>
-											<div class="col-lg-8">
-												<div class="login-input-area">
-													<input type="text" name="localidad"/>
-													<i class="fa fa-user login-user"></i>
-												</div>
-											</div>
-										</div>
+									
 										<div class="row">
 											<div class="col-lg-4">
 												<div class="login-input-head">
@@ -134,7 +101,7 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="email" name="email"/>
+													<input type="email" name="e_mail"/>
 													<i class="fa fa-envelope login-user" aria-hidden="true"></i>
 												</div>
 											</div>
@@ -142,12 +109,12 @@
 										<div class="row">
 											<div class="col-lg-4">
 												<div class="login-input-head">
-													<p>Telefono: 11-5702-0698</p>
+													<p>Telefono </p>
 												</div>
 											</div>
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="text" name="phone"/>
+													<input type="text" name="telefono"/>
 													<i class="fa fa-phone login-user" aria-hidden="true"></i>
 												</div>
 											</div>
@@ -160,75 +127,44 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="password" name="password"/>
+													<input type="password" name="contrasenia"/>
 													<i class="fa fa-lock login-user"></i>
 												</div>
 											</div>
 										</div>
+								
 										<div class="row">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Repita Contraseña</p>
-												</div>
-											</div>
-											<div class="col-lg-8">
-												<div class="login-input-area">
-													<input type="password" name="confarm_password"/>
-													<i class="fa fa-lock login-user"></i>
-												</div>
-											</div>
-											<br>
-											<div class="form-group-inner">
-												<div class="row">
-													<div class="col-lg-4 ">
-														<p>&nbsp;&nbsp;&nbsp;Perfil del Negocio</p>
-													</div>
-													<div class="col-lg-4">
-														<div class="file-upload-inner file-upload-inner-right ts-forms">
-															<div class="input append-small-btn">
-																<div class="col-lg-8 pull-right">
-																	<input type="file" onchange="document.getElementById.value = this.value;">
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-
-
-											<div class="row">
 												<div class="col-lg-4">
 													<div class="login-input-head">
-														<p>&nbsp;&nbsp;Pregunta Secreta</p>
+														<p>Pregunta Secreta</p>
 													</div>
 												</div>
 												<div class="col-lg-7">
 													<div class="interested-input-area">
-														<select name="interestedcategory">
+														<select name="pregunta_secreta">
 															<option value="none" selected="" disabled="">Selecciona una pregunta</option>
 															<option value="design">¿Cúal es el nombre de tu primer mascota?</option>
 															<option value="development">¿Cúal es tu color favorito?</option>
-															<option value="illustration">¿Cúal es tu número favorito?</option>
-															<option value="branding">¿Cúal es tu mes favorito?</option>
-															<option value="video">¿Cúal es tu estacion del año preferida?</option>
+															<option value="design">¿Cúal es el nombre de tu primer novio/a?</option>
+														
+															
 														</select>
 													</div>
 												</div>
 											</div>
-
-											<div class="row">
-												<div class="col-lg-4">
-													<div class="login-input-head">
-														<p>&nbsp;&nbsp;Respuesta</p>
-													</div>
-												</div>
-												<div class="col-lg-7">
-													<div class="login-input-area">
-														<input type="password" name="confarm_respuestas"/>
-														<i class="fa fa-lock login-user"></i>
-													</div>
+										<div class="row">
+											<div class="col-lg-4">
+												<div class="login-input-head">
+													<p>Respuesta </p>
 												</div>
 											</div>
+											<div class="col-lg-8">
+												<div class="login-input-area">
+													<input type="text" name="respuesta_secreta"/>
+													<i class="fa fa-envelope login-user" aria-hidden="true"></i>
+												</div>
+											</div>
+										</div>
 											<br>
 											<div class="row">
 												<div class="col-lg-4"></div>
@@ -244,7 +180,7 @@
 												<br><br><br>
 
 											</div>
-										</div>
+										
 									</div>
 								</div>
 						   </div>

@@ -35,7 +35,7 @@
 											<div class="col-lg-8">
 												<div class="login-input-area">
 													<i class="fa fa-briefcase login-user" aria-hidden="true"></i>
-													<input type="text" name="name"/>
+													<input type="text" name="nombre"/>
 												</div>
 											</div>
 										</div>
@@ -47,7 +47,7 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="interested-input-area">
-													<select name="interestedcategory">
+													<select name="rubro">
 														<option value="none" selected="" disabled="">Selecciona un rubro</option>
 														<option value="design">Ropa</option>
 														<option value="development">Calzado</option>
@@ -72,32 +72,7 @@
 											</div>
 											
 										</div>
-										<div class="row">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Provincia</p>
-												</div>
-											</div>
-											<div class="col-lg-8">
-												<div class="login-input-area">
-													<input type="text" name="provincia"/>
-													<i class="fa fa-user login-user"></i>
-												</div>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Localidad</p>
-												</div>
-											</div>
-											<div class="col-lg-8">
-												<div class="login-input-area">
-													<input type="text" name="localidad"/>
-													<i class="fa fa-user login-user"></i>
-												</div>
-											</div>
-										</div>
+									
 										<div class="row">
 											<div class="col-lg-4">
 												<div class="login-input-head">
@@ -106,7 +81,7 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="email" name="email"/>
+													<input type="email" name="e-mail"/>
 													<i class="fa fa-envelope login-user" aria-hidden="true"></i>
 												</div>
 											</div>
@@ -119,7 +94,7 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="text" name="phone"/>
+													<input type="text" name="telefono"/>
 													<i class="fa fa-phone login-user" aria-hidden="true"></i>
 												</div>
 											</div>
@@ -142,43 +117,55 @@
 												</div>
 											</div>
 										</div>
-
 										<div class="row">
 											<div class="col-lg-4">
 												<div class="login-input-head">
-													<p>Campañas</p>
+													<p>Dueracion de Campañas</p>
 												</div>
 											</div>
 											<div class="col-lg-8">
 												<div class="interested-input-area">
-													<select name="interestedcategory">
-														<option value="none" selected="" disabled="">Elige el tiempo de duracion </option>
-														<option value="design">Ropa</option>
-														<option value="development">Calzado</option>
-														<option value="illustration">Bazar</option>
-														<option value="branding">Alimentos</option>
-														<option value="video">Servicios</option>
+													<select name="descripcion">
+														<option value="none" selected="" disabled="">Selecciona la duracion</option>
+														
+														<option value="development">mensual</option>
+														<option value="illustration">bimensual</option>
+														<option value="branding">trimetral</option>
+														<option value="video">semestral</option>
+														<option value="design">anual</option>
 													</select>
 												</div>
 											</div>
+										</div><div class="row" style="">
+											<div class="col-lg-4">
+												<div class="login-input-head">
+													<p>Inicio de Campaña</p>
+												</div>
+											</div>
+											<br>
+											<div class="col-lg-8">
+												<div class="login-input-area">
+													<input type="date" name="fecha_inicio" id="start"/>
+
+												</div>
+											</div>
 										</div>
-
-
 										<div class="row">
 											<div class="col-lg-4">
 												<div class="login-input-head">
-													<p>Ganancia</p>
+													<p>Monto minimo de venta</p>
 												</div>
 											</div>
 											<div class="col-lg-8">
 												<div class="interested-input-area">
-													<select name="interestedcategory">
-														<option value="none" selected="" disabled="">Selecciona el % sobre el valor de coste</option>
-														<option value="design">Ropa</option>
-														<option value="development">Calzado</option>
-														<option value="illustration">Bazar</option>
-														<option value="branding">Alimentos</option>
-														<option value="video">Servicios</option>
+													<select name="minimo_compra">
+														<option value="none" selected="" disabled="">Selecciona el monto minimo de compra</option>
+														
+														<option value="development">1000</option>
+														<option value="illustration">1500</option>
+														<option value="branding">2000</option>
+														<option value="video">3500</option>
+														<option value="design">5000</option>
 													</select>
 												</div>
 											</div>
@@ -191,13 +178,12 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="interested-input-area">
-													<select name="interestedcategory">
+													<select name="porcentaje_revendedor">
 														<option value="none" selected="" disabled="">Selecciona el % de ganancia de tus revendedores</option>
-														<option value="design">¿Cúal es el nombre de tu primer mascota?</option>
-														<option value="development">¿Cúal es tu color favorito?</option>
-														<option value="illustration">¿Cúal es tu número favorito?</option>
-														<option value="branding">¿Cúal es tu mes favorito?</option>
-														<option value="video">¿Cúal es tu estacion del año preferida?</option>
+														<option value="design">20 %</option>
+														<option value="design">25 %</option>
+														<option value="design">30 %</option>
+														<option value="design">35 %</option>
 													</select>
 												</div>
 											</div>
@@ -210,13 +196,12 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="interested-input-area">
-													<select name="interestedcategory">
-														<option value="none" selected="" disabled="">Selecciona el % de bonos por Incorporar </option>
-														<option value="design">¿Cúal es el nombre de tu primer mascota?</option>
-														<option value="development">¿Cúal es tu color favorito?</option>
-														<option value="illustration">¿Cúal es tu número favorito?</option>
-														<option value="branding">¿Cúal es tu mes favorito?</option>
-														<option value="video">¿Cúal es tu estacion del año preferida?</option>
+													<select name="bonificaciones">
+														<option value="none" selected="" disabled="">Selecciona el % por Incorporar del total de revendido </option>
+														<option value="design">10 %</option>
+														<option value="design">15 %</option>
+														<option value="design">20 %</option>
+														<option value="design">25 %</option>
 													</select>
 												</div>
 											</div>
@@ -226,7 +211,7 @@
 											<div class="col-lg-8">
 												<div class="login-button-pro">
 													<div class="button-style-four btn-mg-b-10">
-														<a href="index.php?menu=login">
+														<a href="index.php?menu=registro-perfil">
                                                 <button type="button" class="btn btn-custon-four btn-primary" > Atras </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 															
                                                 </a>
