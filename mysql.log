@@ -292,3 +292,5 @@ SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
 SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
 2020-10-16 04:52:21
 SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-10-16 06:03:34
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
