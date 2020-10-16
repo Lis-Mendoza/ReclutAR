@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-4"></div>
-			<form id="adminpro-form" class="adminpro-form">
+			<form id="adminpro-form" class="adminpro-form" action="insertarnegocio.php" method="post">
 				<div class="login-form-area mg-t-30 mg-b-15">
 					<div class="container-fluid">
 						<div class="row">
@@ -34,7 +34,8 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="text" name="name"/>
+													<i class="fa fa-briefcase login-user" aria-hidden="true"></i>
+													<input type="text" name="nombre" required>
 												</div>
 											</div>
 										</div>
@@ -46,61 +47,18 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="interested-input-area">
-													<select name="interestedcategory">
+													<select name="rubro" required>
 														<option value="none" selected="" disabled="">Selecciona un rubro</option>
-														<option value="design">Ropa</option>
-														<option value="development">Calzado</option>
-														<option value="illustration">Bazar</option>
-														<option value="branding">Alimentos</option>
-														<option value="video">Servicios</option>
+														<option value="Ropa">Ropa</option>
+														<option value="Calzado">Calzado</option>
+														<option value="Bazar">Bazar</option>
+														<option value="Alimentos">Alimentos</option>
+														<option value="Servicios">Servicios</option>
 													</select>
 												</div>
 											</div>
 										</div>
-										<div class="row">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Domicilio del Negocio</p>
-												</div>
-											</div>
-											<div class="col-lg-6">
-												<div class="login-input-area">
-													<input type="text" name="domicilio"/>
-												</div>
-											</div>
-											<div class="col-lg-2">
-												<div class="login-input-area">
-													<input type="text" name="domicilio"/>
-												</div>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Provincia</p>
-												</div>
-											</div>
-											<div class="col-lg-8">
-												<div class="login-input-area">
-													<input type="text" name="provincia"/>
-													<i class="fa fa-user login-user"></i>
-												</div>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Localidad</p>
-												</div>
-											</div>
-											<div class="col-lg-8">
-												<div class="login-input-area">
-													<input type="text" name="localidad"/>
-													<i class="fa fa-user login-user"></i>
-												</div>
-											</div>
-										</div>
-										<div class="row">
+                                        <div class="row">
 											<div class="col-lg-4">
 												<div class="login-input-head">
 													<p>e-mail del Negocio</p>
@@ -108,11 +66,30 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="email" name="email"/>
+													<input type="email" name="e_mail">
 													<i class="fa fa-envelope login-user" aria-hidden="true"></i>
 												</div>
 											</div>
+											
+											</div>
+									
+									
+										<div class="row">
+											<div class="col-lg-4">
+												<div class="login-input-head">
+													<p>Domicilio del Negocio</p>
+												</div>
+											</div>
+											<div class="col-lg-8">
+												<div class="login-input-area">
+													<input type="text" name="domicilio">
+													<i class="fa fa-user login-user"></i>
+												</div>
+											</div>
+											
 										</div>
+									
+										
 										<div class="row">
 											<div class="col-lg-4">
 												<div class="login-input-head">
@@ -121,66 +98,81 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="login-input-area">
-													<input type="text" name="phone"/>
+													<input type="text" name="telefono" >
 													<i class="fa fa-phone login-user" aria-hidden="true"></i>
 												</div>
 											</div>
 										</div>
 										<br>
+										
 										<div class="form-group-inner">
 											<div class="row">
 												<div class="col-lg-4 ">
-													<p>&nbsp;&nbsp;&nbsp;Perfil del Negocio</p>
+													<p>&nbsp;&nbsp;&nbsp;Foto perfil del Negocio</p>
 												</div>
-												<div class="col-lg-4">
+												<div class="col-lg">
 													<div class="file-upload-inner file-upload-inner-right ts-forms">
 														<div class="input append-small-btn">
-															<div class="col-lg-8 pull-right">
-																<input type="file" onchange="document.getElementById.value = this.value;">
+															<div class="col-lg-8 pull-right" >
+																<input type="file" name="foto" onchange="document.getElementById.value = this.value;">
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
-
 										<div class="row">
 											<div class="col-lg-4">
 												<div class="login-input-head">
-													<p>Campañas</p>
+													<p>Duración de Campañas</p>
 												</div>
 											</div>
 											<div class="col-lg-8">
 												<div class="interested-input-area">
-													<select name="interestedcategory">
-														<option value="none" selected="" disabled="">Elige el tiempo de duracion </option>
-														<option value="design">Ropa</option>
-														<option value="development">Calzado</option>
-														<option value="illustration">Bazar</option>
-														<option value="branding">Alimentos</option>
-														<option value="video">Servicios</option>
+													<select name="duracion" required>
+														<option value="none" selected="" disabled="">Selecciona la duracion</option>
+														<option value="15">15 dias</option>
+                                                        <option value="20">20 dias</option>
+														<option value="30">1 mes</option>
+														<option value="60">2 meses</option>
+														<option value="90">3 meses</option>
+														<option value="120">4 meses</option>
+                                                        <option value="150">5 meses</option>
+                                                        <option value="180">6 meses</option>
+                                                        <option value="210">7 meses</option>
+                                                        <option value="240">8 meses</option>
+                                                        <option value="270">9 meses</option>
+                                                        <option value="300">10 meses</option>
+                                                        <option value="330">11 meses</option>
+                                                        <option value="360">12 meses</option>
 													</select>
 												</div>
 											</div>
 										</div>
+                                        <div class="row" style="">
+											<div class="col-lg-4">
+												<div class="login-input-head">
+													<p>Inicio de Campaña</p>
+												</div>
+											</div>
+											<br>
+											<div class="col-lg-8">
+												<div class="login-input-area">
+													<input type="date" name="fecha_inicio" id="start" required>
 
-
+												</div>
+											</div>
+										</div>
 										<div class="row">
 											<div class="col-lg-4">
 												<div class="login-input-head">
-													<p>Ganancia</p>
+													<p>Monto minimo del negocio</p>
 												</div>
 											</div>
 											<div class="col-lg-8">
-												<div class="interested-input-area">
-													<select name="interestedcategory">
-														<option value="none" selected="" disabled="">Selecciona el % sobre el valor de coste</option>
-														<option value="design">Ropa</option>
-														<option value="development">Calzado</option>
-														<option value="illustration">Bazar</option>
-														<option value="branding">Alimentos</option>
-														<option value="video">Servicios</option>
-													</select>
+												<div class="login-input-area">
+													<i class="fa fa-briefcase login-user" aria-hidden="true"></i>
+													<input type="text" name="minimo" required>
 												</div>
 											</div>
 										</div>
@@ -192,13 +184,21 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="interested-input-area">
-													<select name="interestedcategory">
+													<select name="porcentaje_revendedor" required>
 														<option value="none" selected="" disabled="">Selecciona el % de ganancia de tus revendedores</option>
-														<option value="design">¿Cúal es el nombre de tu primer mascota?</option>
-														<option value="development">¿Cúal es tu color favorito?</option>
-														<option value="illustration">¿Cúal es tu número favorito?</option>
-														<option value="branding">¿Cúal es tu mes favorito?</option>
-														<option value="video">¿Cúal es tu estacion del año preferida?</option>
+														<option value="10">10 %</option>
+                                                        <option value="15">15 %</option>
+														<option value="20">20 %</option>
+														<option value="25">25 %</option>
+														<option value="30">30 %</option>
+                                                        <option value="35">35 %</option>
+														<option value="40">40 %</option>
+														<option value="45">45 %</option>
+														<option value="50">50 %</option>
+                                                        <option value="55">55 %</option>
+														<option value="60">60 %</option>
+														<option value="65">65 %</option>
+														<option value="70">70 %</option>
 													</select>
 												</div>
 											</div>
@@ -211,13 +211,22 @@
 											</div>
 											<div class="col-lg-8">
 												<div class="interested-input-area">
-													<select name="interestedcategory">
-														<option value="none" selected="" disabled="">Selecciona el % de bonos por Incorporar </option>
-														<option value="design">¿Cúal es el nombre de tu primer mascota?</option>
-														<option value="development">¿Cúal es tu color favorito?</option>
-														<option value="illustration">¿Cúal es tu número favorito?</option>
-														<option value="branding">¿Cúal es tu mes favorito?</option>
-														<option value="video">¿Cúal es tu estacion del año preferida?</option>
+													<select name="bonificaciones" required>
+														<option value="none" selected="" disabled="">Selecciona el % por Incorporar del total de revendido </option>
+                                                        <option value="5">5 %</option>
+														<option value="10">10 %</option>
+                                                        <option value="15">15 %</option>
+														<option value="20">20 %</option>
+														<option value="25">25 %</option>
+														<option value="30">30 %</option>
+                                                        <option value="35">35 %</option>
+														<option value="40">40 %</option>
+														<option value="45">45 %</option>
+														<option value="50">50 %</option>
+                                                        <option value="55">55 %</option>
+														<option value="60">60 %</option>
+														<option value="65">65 %</option>
+														<option value="70">70 %</option>
 													</select>
 												</div>
 											</div>
@@ -226,8 +235,12 @@
 											<div class="col-lg-4"></div>
 											<div class="col-lg-8">
 												<div class="login-button-pro">
-													<div class="col-xs-8">
-														<a href="index.php?menu=login"><button type="button" class="btn btn-custon-four btn-primary">Terminar Registro</button></a>
+													<div class="button-style-four btn-mg-b-10">
+														<a href="index.php?menu=registro-perfil">
+                                                <button type="button" class="btn btn-custon-four btn-primary" > Atras </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+															
+                                                </a>
+														<a href="index.php?menu=login"><button type="submit" class="btn btn-custon-four btn-primary">Terminar Registro</button></a>
 														<br><br><br>
 													</div>
 												</div>

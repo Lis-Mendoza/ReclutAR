@@ -8,16 +8,16 @@
 
 
 
-$usuario= $_POST['usuario']; 
+$e_mail= $_POST['e_mail']; 
 $password= $_POST['password'];
 
-	$consulta="SELECT * FROM `usuario` WHERE usuario = '".$usuario."' AND contrasenia = '".$password."' ";
+	$consulta="SELECT * FROM `usuario` WHERE e_mail = '".$e_mail."' AND contrasenia = '".$password."' ";
 	$resultado=db_query($consulta);
 
 	
 
 if(count($resultado)==1){
-	    session_set("usuario",$resultado[0]['usuario']);
+	    session_set("e_mail",$resultado[0]['e_mail']);
 		session_set("uid",$resultado[0]['id_cuenta']);
 		session_var_unset("error");
 	

@@ -118,3 +118,177 @@ SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola'
 SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
 2020-10-06 05:39:19
 SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
+2020-10-06 05:58:19
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
+2020-10-06 06:02:05
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
+2020-10-07 08:08:35
+SELECT * FROM pregunta_secreta;
+2020-10-07 08:17:27
+SELECT * FROM pregunta_secreta;
+2020-10-07 08:24:20
+SELECT * FROM pregunta_secreta;
+2020-10-07 08:24:44
+SELECT * FROM pregunta_secreta;
+2020-10-07 08:27:02
+SELECT * FROM pregunta_secreta;
+2020-10-11 01:20:20
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
+2020-10-11 01:20:32
+SELECT * FROM pregunta_secreta;
+2020-10-11 01:55:56
+SELECT * FROM pregunta_secreta;
+2020-10-11 02:04:25
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
+2020-10-11 02:48:32
+SELECT * FROM pregunta_secreta;
+2020-10-11 03:39:51
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
+2020-10-11 07:55:05
+SELECT * FROM pregunta_secreta;
+2020-10-11 08:21:18
+SELECT * FROM pregunta_secreta;
+2020-10-11 08:26:11
+SELECT * FROM pregunta_secreta;
+2020-10-11 08:47:00
+SELECT * FROM pregunta_secreta;
+2020-10-11 17:50:14
+SELECT * FROM pregunta_secreta;
+2020-10-11 18:33:13
+SELECT * FROM `usuario` WHERE usuario = 'lis' AND contrasenia = 'lola' 
+2020-10-11 18:33:32
+SELECT * FROM `usuario` WHERE usuario = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-11 18:40:19
+SELECT * FROM `usuario` WHERE e_mail = '' AND contrasenia = 'lola' 
+2020-10-11 18:41:28
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-11 18:41:40
+SELECT * FROM pregunta_secreta;
+2020-10-11 18:41:52
+SELECT * FROM pregunta_secreta;
+2020-10-11 18:42:22
+SELECT * FROM pregunta_secreta;
+2020-10-11 18:42:24
+SELECT * FROM pregunta_secreta;
+2020-10-11 18:42:25
+SELECT * FROM pregunta_secreta;
+2020-10-11 18:42:26
+SELECT * FROM pregunta_secreta;
+2020-10-11 18:48:09
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-11 18:51:33
+SELECT * FROM pregunta_secreta;
+2020-10-11 18:57:05
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-11 19:34:27
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('lis.bruno.29.3.2015@gmail.com','lola','mendoza','36874888','2020-02-18','rivadavia 1767','1157020444',now(),'lola','development','azul',1,1)
+2020-10-11 19:36:47
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('lolaloca@gmail.com','lola','famosa','36874899','2020-02-04','rivadavia 1788','1157020499',now(),'lola','development','rojo',1,1)
+2020-10-11 19:41:07
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('georg@gmail.com','jor','matero','36876545','2020-02-18','rivadavia 1666','115702089',now(),'lola','development','negro',1,1)
+2020-10-11 19:48:37
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('bosterosputos@gmail.com','boca','pecho frio','36876767','2020-02-05','boca 1666','115702878',now(),'lola','design','dina',1,1)
+2020-10-11 19:51:18
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('','','','','','','',now(),'','','',1,1)
+2020-10-11 19:59:10
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('lolaloca000@gmail.com','','','','','','',now(),'','','',1,1)
+2020-10-11 20:05:51
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('leo@gmail.com','lelo','lela','76767676','2020-10-15','rivadavia 1666','1138717109',now(),'lola','development','rosa',1,1)
+2020-10-11 20:52:33
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion_de_campaña`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('Bedetinas Culotest','Ropa','bedetinaculotest@gmail.com','boca 1666','1157020690','','30',2020-10-08'2000','25','10')
+2020-10-11 21:22:25
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion_de_campaña`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('lola','Alimentos','lolaalimentos@gmail.com','','','','30',2020-10-16'2000','20','5')
+2020-10-11 21:23:28
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion_de_campaña`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('lola','Alimentos','lolaalimentos@gmail.com','','','','',2020-10-16'2000','20','5')
+2020-10-11 21:26:52
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('lola','Alimentos','lolaalimentos@gmail.com','','','','30',2020-10-16'2000','20','5')
+2020-10-11 21:30:56
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('lola','Alimentos','lolaalimentos@gmail.com','','','','30',2020-10-16'2000','20','5')
+2020-10-11 21:36:52
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('lola','Alimentos','lolaalimentos@gmail.com','','','','30',2020-10-16'2000','20','5')
+2020-10-11 21:40:34
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('lola','Alimentos','lolaalimentos@gmail.com','','','','30',2020-10-16'2000','20','5')
+2020-10-11 21:51:08
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('gogogo@gmail.com','gogogo','lalala','76767676','2020-10-15','rivadavia 1666','1138717109',now(),'lola','development','naranja',1,1)
+2020-10-11 21:51:55
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('gogogo','Alimentos','gogogo@gmail.com','','','','30',2020-10-20'2000','35','10')
+2020-10-11 22:53:45
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('gogogo','Alimentos','gogogo@gmail.com','','','','30',2020-10-20'2000','35','10')
+2020-10-11 22:55:55
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('gogogo','Alimentos','gogogo@gmail.com','fonruge 2453','0303456','','30',2020-10-20','2000','35','10')
+2020-10-11 23:03:16
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('gogogo','Alimentos','gogogo@gmail.com','fonruge 2453','0303456','','30',2020-10-20','2000','35','10')
+2020-10-11 23:04:13
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('gogogo','Alimentos','gogogo@gmail.com','fonruge 2453','0303456','bruno dibujo.png','30',2020-10-20','2000','35','10')
+2020-10-11 23:10:15
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('brunito','Servicios','bruneli@gmail.com','fonruge 9999','0303456654','bruno dibujo.png','60','2020-10-15','3000','25','10')
+2020-10-11 23:12:09
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('patito','Servicios','patito@gmail.com','fonruge 9999','0303456654','bruno dibujo.png','60','2020-10-15','3000','25','10')
+2020-10-11 23:13:43
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('gatito','Servicios','patito@gmail.com','fonruge 9999','0303456654','bruno dibujo.png','60','2020-10-15','3000','25','10')
+2020-10-11 23:14:01
+SELECT * FROM `usuario` WHERE e_mail = 'gogogo@gmail.com' AND contrasenia = 'lola' 
+2020-10-11 23:15:52
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('juan@gmail.com','juan jose','mendoza','76767687','2020-10-21','rivadavia 3333','07373773',now(),'lola','¿Cúal es el nombre de tu primer mascota?','vitamina',1,1)
+2020-10-11 23:16:55
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('juancho arreglos','Servicios','juanchoarreglos@gmail.com','bolivar 3867','1138717109','','90','2020-10-01','3870','30','10')
+2020-10-11 23:35:13
+SELECT * FROM `usuario` WHERE e_mail = 'patito@gmail.com' AND contrasenia = 'lola' 
+2020-10-11 23:40:10
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-11 23:53:07
+SELECT * FROM `usuario` WHERE e_mail = 'lis.bruno.29.3.2015@gmail.com' AND contrasenia = 'lola' 
+2020-10-12 00:28:40
+SELECT e_mail,id FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-10-12 00:31:57
+SELECT e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-10-12 00:58:43
+SELECT e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-10-12 01:11:22
+SELECT e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-10-12 01:37:05
+SELECT e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-10-12 01:38:05
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('nana@gmail.com','fran','fain','87464747','2020-10-20','fonruge 9999','1157020499',now(),'lola','','rosa',1,1)
+2020-10-12 01:40:35
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-12 01:41:19
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-12 01:42:49
+SELECT e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-10-12 01:43:35
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('neona@gmail.com','noelia','mendoza','34867848','2020-10-28','rivadavia 1767','0303456',now(),'lola','','blanco',1,1)
+2020-10-12 01:45:30
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-12 01:45:36
+SELECT e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-10-12 01:46:20
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `referente`, `bonificacion`, `id_rol`) VALUES('guido@gmail.com','guido','vegas','36546746','2020-10-14','','',now(),'lola','','verde','',0,2,)
+2020-10-12 01:52:36
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `referente`, `bonificacion`, `id_rol`) VALUES('guido@gmail.com','guido','vegas','36546746','2020-10-14','','',now(),'lola','','verde','',0,2,)
+2020-10-12 02:11:38
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `referente`, `bonificacion`, `id_rol`) VALUES('guido@gmail.com','guido','vegas','36546746','2020-10-14','','',now(),'lola','','verde','',0,2,)
+2020-10-12 02:11:54
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `referente`, `bonificacion`, `id_rol`) VALUES('guido@gmail.com','guido','vegas','36546746','2020-10-14','','',now(),'lola','','verde','',0,2,)
+2020-10-12 02:13:03
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `referente`, `bonificacion`, `id_rol`) VALUES('guido@gmail.com','guido','vegas','36546746','2020-10-14','','',now(),'lola','','verde','',0,2,)
+2020-10-12 02:18:36
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `referente`, `bonificacion`, `id_rol`) VALUES('guido@gmail.com','guido','vegas','36546746','2020-10-14','','',now(),'lola','','verde','',0,2,)
+2020-10-12 02:23:51
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('pancho@gmail.com','pancho','pansa','36874888','2020-10-23','rivadavia 1333','1138717104',now(),'lola','¿Cúal es tu color favorito?','marron',1,1)
+2020-10-12 02:28:31
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-12 02:28:34
+SELECT e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-10-12 02:33:31
+SELECT e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-10-12 02:38:16
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-10-12 02:39:20
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `referente`, `bonificacion`, `id_rol`,`id_negocio`) VALUES('pimpon@gmail.com','pipo','popo','36874627','2020-10-08','','',now(),'lola','¿Cúal es tu color favorito?','marron ','3',0,2,2)
+2020-10-12 03:22:11
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-10-16 04:52:00
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-10-16 04:52:21
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2

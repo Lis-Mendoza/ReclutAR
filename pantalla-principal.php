@@ -125,7 +125,7 @@
 								<a href="pantalla-principal.php?menu=incorporar" class="dropdown-item">Dar de Alta</a>
 								<a href="../Pantallas/contact-client.html" class="dropdown-item">Dar de Baja</a>
 								<a href="../Pantallas/contact-client-v.1.html" class="dropdown-item">Modificar</a>
-								<a href="../Pantallas/project-list.html" class="dropdown-item">Listar</a>
+								<a href= "pantalla-principal.php?menu=listarrevendedores" class="dropdown-item">Listar</a>
 								<a href="../Pantallas/project-details.html" class="dropdown-item">Bonos</a>
 							</div>
 						</li>
@@ -266,7 +266,7 @@
 											</li>
 											<li><a href="../Pantallas/rounded-chart.html">Modificar</a>
 											</li>
-											<li><a href="../Pantallas/c3.html">Listar</a>
+											<li><a href="pantalla-principal.php?menu=listarrevendedores">Listar</a>
 											</li>
 											<li><a href="../Pantallas/c3.html">Bonos</a>
 											</li>

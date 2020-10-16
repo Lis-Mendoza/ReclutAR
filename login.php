@@ -27,7 +27,7 @@
 							</div>
 							<div class="col-lg-8">
 								<div class="login-input-area">
-									<input type="text" name="usuario"/>
+									<input type="email" name="e_mail"/>
 									<i class="fa fa-user login-user" aria-hidden="true"></i>
 								</div>
 							</div>
