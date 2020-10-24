@@ -3,22 +3,22 @@
 	session_start(); 
 	
 	/*creamos un elemento en el array $_SESSION y le asignamos un valor.*/
-	function session_set($nombre, $valor){
+	function session_set($e_mail, $valor){
 		$_SESSION[$nombre]=$valor;
 	}
 	
 	/*Buscamos un elemento en el array $_SESSION y devolvemos su valor*/
-	function session_get($nombre){
-		if(isset($_SESSION[$nombre])){  //isset verifica la existencia de la variable
-			return $_SESSION[$nombre];
+	function session_get($e_mail){
+		if(isset($_SESSION[$e_mail])){  //isset verifica la existencia de la variable
+			return $_SESSION[$e_mail];
 		} else {
 			return FALSE;
 		}
 	}
 	/*Buscamos un elemento en el array $_SESSION y eliminamos su valor*/
-	function session_var_unset($nombre){
-		if(isset($_SESSION[$nombre])){  //isset verifica la existencia de la variable
-			unset($_SESSION[$nombre]);
+	function session_var_unset($e_mail){
+		if(isset($_SESSION[$e_mail])){  //isset verifica la existencia de la variable
+			unset($_SESSION[$e_mail]);
 			return TRUE;
 		} else {
 			return FALSE;
