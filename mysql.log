@@ -300,3 +300,5 @@ SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contraseni
 SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
 2020-10-24 06:05:29
 SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-24 23:26:08
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 

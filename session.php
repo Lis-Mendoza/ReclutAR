@@ -4,7 +4,7 @@
 	
 	/*creamos un elemento en el array $_SESSION y le asignamos un valor.*/
 	function session_set($e_mail, $valor){
-		$_SESSION[$nombre]=$valor;
+		$_SESSION[$e_mail]=$valor;
 	}
 	
 	/*Buscamos un elemento en el array $_SESSION y devolvemos su valor*/
