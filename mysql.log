@@ -337,3 +337,9 @@ SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contraseni
 2020-10-26 04:16:02
 SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
 >>>>>>> 88381c9 ( MySQL Remoto)
+2020-10-26 17:51:47
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-26 17:51:58
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-26 17:52:41
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
