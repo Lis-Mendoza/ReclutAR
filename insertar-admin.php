@@ -4,7 +4,7 @@
 
 	include ("funciones.php");
 	include ("session.php");
-	include ("database.php");
+	include ("database_min.php");
 
 
 $e_mail = $_POST['e_mail'];

@@ -1,7 +1,7 @@
 <?php
 
 include ("funciones.php");
-include ("session.php");
+
 include ("database_min.php");
 
 

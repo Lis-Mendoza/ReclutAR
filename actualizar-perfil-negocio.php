@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-4"></div>
-			<form id="adminpro-form" class="adminpro-form" action="insertarnegocio.php" method="post">
+			<form id="adminpro-form" class="adminpro-form" action="insertar-negocio.php" method="post">
 				<div class="login-form-area mg-t-30 mg-b-15">
 					<div class="container-fluid">
 						<div class="row">
@@ -26,38 +26,8 @@
 												</div>
 											</div>
 										</div>
-										<div class="row">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Nombre del negocio</p>
-												</div>
-											</div>
-											<div class="col-lg-8">
-												<div class="login-input-area">
-													<i class="fa fa-briefcase login-user" aria-hidden="true"></i>
-													<input type="text" name="nombre" required>
-												</div>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Rubro</p>
-												</div>
-											</div>
-											<div class="col-lg-8">
-												<div class="interested-input-area">
-													<select name="rubro" required>
-														<option value="none" selected="" disabled="">Selecciona un rubro</option>
-														<option value="Ropa">Ropa</option>
-														<option value="Calzado">Calzado</option>
-														<option value="Bazar">Bazar</option>
-														<option value="Alimentos">Alimentos</option>
-														<option value="Servicios">Servicios</option>
-													</select>
-												</div>
-											</div>
-										</div>
+										
+										
                                         <div class="row">
 											<div class="col-lg-4">
 												<div class="login-input-head">
@@ -108,7 +78,7 @@
 										<div class="form-group-inner">
 											<div class="row">
 												<div class="col-lg-4 ">
-													<p>&nbsp;&nbsp;&nbsp;Foto perfil del Negocio</p>
+													<p>&nbsp;&nbsp;&nbsp;Foto Negocio</p>
 												</div>
 												<div class="col-lg">
 													<div class="file-upload-inner file-upload-inner-right ts-forms">
@@ -121,48 +91,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="row">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Duración de Campañas</p>
-												</div>
-											</div>
-											<div class="col-lg-8">
-												<div class="interested-input-area">
-													<select name="duracion" required>
-														<option value="none" selected="" disabled="">Selecciona la duracion</option>
-														<option value="15">15 dias</option>
-                                                        <option value="20">20 dias</option>
-														<option value="30">1 mes</option>
-														<option value="60">2 meses</option>
-														<option value="90">3 meses</option>
-														<option value="120">4 meses</option>
-                                                        <option value="150">5 meses</option>
-                                                        <option value="180">6 meses</option>
-                                                        <option value="210">7 meses</option>
-                                                        <option value="240">8 meses</option>
-                                                        <option value="270">9 meses</option>
-                                                        <option value="300">10 meses</option>
-                                                        <option value="330">11 meses</option>
-                                                        <option value="360">12 meses</option>
-													</select>
-												</div>
-											</div>
-										</div>
-                                        <div class="row" style="">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Inicio de Campaña</p>
-												</div>
-											</div>
-											<br>
-											<div class="col-lg-8">
-												<div class="login-input-area">
-													<input type="date" name="fecha_inicio" id="start" required>
-
-												</div>
-											</div>
-										</div>
+										
 										<div class="row">
 											<div class="col-lg-4">
 												<div class="login-input-head">
@@ -240,7 +169,7 @@
                                                 <button type="button" class="btn btn-custon-four btn-primary" > Atras </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 															
                                                 </a>
-														<a href="index.php?menu=login"><button type="submit" class="btn btn-custon-four btn-primary">Terminar Registro</button></a>
+														<a href="index.php?menu=login"><button type="submit" class="btn btn-custon-four btn-primary">Actualizar</button></a>
 														<br><br><br>
 													</div>
 												</div>

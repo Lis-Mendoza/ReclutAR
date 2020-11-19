@@ -1,5 +1,5 @@
-<?php
 
+<?php
 include ("session.php");
 
 if ( !isset( $_GET[ 'menu' ] ) ) {
@@ -59,9 +59,6 @@ if ( !isset( $_GET[ 'menu' ] ) ) {
 	<!-- responsive CSS
 		============================================ -->
 	<link rel="stylesheet" href="css/responsive.css">
-	<!-- cropper CSS
-		============================================ -->
-    <link rel="stylesheet" href="css/cropper/cropper.min.css">
 	
 	<style type="text/css">
 		body,
@@ -277,11 +274,6 @@ if ( !isset( $_GET[ 'menu' ] ) ) {
          ============================================ -->
     <script src="js/main.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-	<!-- cropper JS
-		============================================ -->
-    <script src="js/cropper/cropper.min.js"></script>
-    <script src="js/cropper/cropper-actice.js"></script>
-	
 </body>
 
 </html>

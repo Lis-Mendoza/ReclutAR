@@ -343,3 +343,2337 @@ SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contraseni
 SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
 2020-10-26 17:52:41
 SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-26 18:06:10
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('lis.mendoza.cc@gmail.com','jiji','juju','87685789','2020-09-30','','',now(),'lola','¿Cúal es tu color favorito?','negro',1,1)
+2020-10-26 18:06:53
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('lis.mendoza.cc@gmail.com','jiji','juju','87685789','2020-10-29','','',now(),'lola','¿Cúal es el nombre de tu primer mascota?','njnkj',1,1)
+2020-10-26 18:23:49
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-26 18:24:41
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-26 18:25:48
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-10-26 18:27:36
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('cesar@gmail.com','cesar','conejeros','36876545','2020-09-30','','',now(),'lola','¿Cúal es tu color favorito?','negro',1,1)
+2020-11-07 04:16:18
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('lis.mendoza.cc@gmail.com','cesar','conejeros','36876545','2020-11-04','','',now(),'lola','¿Cúal es tu color favorito?','negro',1,1)
+2020-11-07 04:36:43
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('lis.mendoza.cc@gmail.com','brubru','gogogo','8736673888','2020-12-02','','',now(),'lola','¿Cúal es el nombre de tu primer mascota?','negro',1,1)
+2020-11-07 04:38:54
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `id_rol`, `estado`) VALUES ('lis.mendoza.cc@gmail.com','brubru','juju','87685789','2020-11-17','','',now(),'lola','¿Cúal es el nombre de tu primer novio/a?','negro',1,1)
+2020-11-07 05:48:01
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('brubru','Ropa','lis.mendoza.cc@gmail.com','','','','15','2020-11-19','3000','25','5')
+2020-11-07 05:51:25
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-11-07 05:51:40
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-11-07 05:52:34
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-11-07 05:52:48
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-07 05:53:43
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-07 05:55:30
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `referente`, `bonificacion`, `id_rol`,`id_negocio`) VALUES('lolaloca@gmail.com','ñomi','conejeros','87685789','2020-11-10','','',now(),'lola','¿Cúal es el nombre de tu primer mascota?','negro','14',0,2,2)
+2020-11-07 05:58:40
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-07 05:59:27
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `referente`, `bonificacion`, `id_rol`,`id_negocio`) VALUES('leonn@gmail.com','brubru','conejeros','36876545','2020-11-03','','',now(),'lola','¿Cúal es el nombre de tu primer novio/a?','njnkj','8',0,2,2)
+2020-11-07 06:01:36
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-08 04:04:29
+SELECT * FROM precio where lista=1;
+2020-11-08 04:06:19
+SELECT * FROM  usuarios;
+2020-11-08 04:06:44
+SELECT * FROM  usuarios
+2020-11-08 04:07:45
+SELECT * FROM  usuario
+2020-11-08 04:08:26
+SELECT * FROM  usuario
+2020-11-08 04:20:17
+SELECT * FROM  usuario
+2020-11-08 04:22:11
+SELECT * FROM  usuario
+2020-11-08 04:23:10
+SELECT * FROM  usuario
+2020-11-08 04:23:40
+SELECT * FROM  usuario
+2020-11-08 04:24:38
+SELECT * FROM  usuario
+2020-11-08 04:24:56
+SELECT * FROM  usuario
+2020-11-08 04:25:36
+SELECT * FROM  usuario
+2020-11-08 04:26:44
+SELECT * FROM  usuario
+2020-11-08 04:27:10
+SELECT * FROM  usuario
+2020-11-08 04:30:27
+SELECT * FROM  usuario
+2020-11-08 04:35:03
+SELECT * FROM  usuario
+2020-11-08 06:28:45
+SELECT * FROM  usuario
+2020-11-08 06:31:42
+SELECT * FROM  usuario
+2020-11-08 06:39:47
+SELECT * FROM  usuario
+2020-11-08 06:40:23
+SELECT * FROM  usuario
+2020-11-08 06:43:33
+SELECT * FROM  usuario
+2020-11-08 06:44:24
+SELECT * FROM  usuario
+2020-11-08 06:44:42
+SELECT * FROM  usuario
+2020-11-08 06:45:55
+SELECT * FROM  usuario
+2020-11-08 06:46:30
+SELECT * FROM  usuario
+2020-11-08 06:46:59
+SELECT * FROM  usuario
+2020-11-08 06:47:52
+SELECT * FROM  usuario
+2020-11-08 06:48:58
+SELECT * FROM  usuario
+2020-11-08 06:49:28
+SELECT * FROM  usuario
+2020-11-08 06:50:33
+SELECT * FROM  usuario
+2020-11-08 06:50:52
+SELECT * FROM  usuario
+2020-11-08 06:50:56
+SELECT * FROM  usuario
+2020-11-08 06:51:10
+SELECT * FROM  usuario
+2020-11-08 06:51:23
+SELECT * FROM  usuario
+2020-11-08 06:52:22
+SELECT * FROM  usuario
+2020-11-08 06:52:38
+SELECT * FROM  usuario
+2020-11-08 06:53:33
+SELECT * FROM  usuario
+2020-11-08 06:53:43
+SELECT * FROM  usuario
+2020-11-08 06:54:34
+SELECT * FROM  usuario
+2020-11-08 06:55:06
+SELECT * FROM  usuario
+2020-11-08 06:57:21
+SELECT * FROM  usuario
+2020-11-08 06:59:04
+SELECT * FROM  usuario
+2020-11-08 06:59:41
+SELECT * FROM  usuario
+2020-11-08 07:00:15
+SELECT * FROM  usuario
+2020-11-08 07:03:18
+SELECT * FROM  usuario
+2020-11-08 07:04:10
+SELECT * FROM  usuario
+2020-11-08 07:05:08
+SELECT * FROM  usuario
+2020-11-08 07:05:57
+SELECT * FROM  usuario
+2020-11-08 07:06:59
+SELECT * FROM  usuario
+2020-11-08 07:07:16
+SELECT * FROM  usuario
+2020-11-08 07:14:36
+SELECT * FROM  usuario
+2020-11-08 07:16:21
+SELECT * FROM  usuario
+2020-11-08 07:16:38
+SELECT * FROM  usuario
+2020-11-08 07:16:59
+SELECT * FROM  usuario
+2020-11-08 07:17:14
+SELECT * FROM  usuario
+2020-11-08 07:18:06
+SELECT * FROM  usuario
+2020-11-08 07:19:22
+SELECT * FROM  usuario
+2020-11-08 07:19:34
+SELECT * FROM  usuario
+2020-11-08 07:19:59
+SELECT * FROM  usuario
+2020-11-08 07:22:31
+SELECT * FROM  usuario
+2020-11-08 07:22:45
+SELECT * FROM  usuario
+2020-11-08 07:23:05
+SELECT * FROM  usuario
+2020-11-08 07:23:26
+SELECT * FROM  usuario
+2020-11-08 07:25:35
+SELECT * FROM  usuario
+2020-11-08 07:25:52
+SELECT * FROM  usuario
+2020-11-08 07:26:54
+SELECT * FROM  usuario
+2020-11-08 07:26:59
+SELECT * FROM  usuario
+2020-11-08 07:28:20
+SELECT * FROM  usuario
+2020-11-08 07:29:19
+SELECT * FROM  usuario
+2020-11-08 07:29:42
+SELECT * FROM  usuario
+2020-11-08 07:29:58
+SELECT * FROM  usuario
+2020-11-08 07:30:30
+SELECT * FROM  usuario
+2020-11-08 07:45:48
+SELECT * FROM  usuario
+2020-11-08 07:51:45
+SELECT * FROM  usuario
+2020-11-08 07:53:16
+SELECT * FROM  usuario
+2020-11-08 07:54:27
+SELECT * FROM  usuario
+2020-11-08 07:55:10
+SELECT * FROM  usuario
+2020-11-08 07:55:17
+SELECT * FROM  usuario
+2020-11-08 07:55:52
+SELECT * FROM  usuario
+2020-11-08 07:56:42
+SELECT * FROM  usuario
+2020-11-08 07:57:18
+SELECT * FROM  usuario
+2020-11-08 07:57:39
+SELECT * FROM  usuario
+2020-11-08 07:58:07
+SELECT * FROM  usuario
+2020-11-08 07:58:20
+SELECT * FROM  usuario
+2020-11-08 07:58:47
+SELECT * FROM  usuario
+2020-11-08 07:59:01
+SELECT * FROM  usuario
+2020-11-08 07:59:20
+SELECT * FROM  usuario
+2020-11-08 08:00:44
+SELECT * FROM  usuario
+2020-11-08 08:01:43
+SELECT * FROM  usuario
+2020-11-08 08:02:12
+SELECT * FROM  usuario
+2020-11-08 08:02:59
+SELECT * FROM  usuario
+2020-11-08 08:03:02
+SELECT * FROM  usuario
+2020-11-08 08:03:23
+SELECT * FROM  usuario
+2020-11-08 08:03:34
+SELECT * FROM  usuario
+2020-11-08 08:03:55
+SELECT * FROM  usuario
+2020-11-08 08:04:18
+SELECT * FROM  usuario
+2020-11-08 08:11:14
+SELECT * FROM  usuario
+2020-11-08 08:11:40
+SELECT * FROM  usuario
+2020-11-08 08:12:04
+SELECT * FROM  usuario
+2020-11-08 08:12:22
+SELECT * FROM  usuario
+2020-11-08 08:12:39
+SELECT * FROM  usuario
+2020-11-08 08:12:56
+SELECT * FROM  usuario
+2020-11-08 08:13:36
+SELECT * FROM  usuario
+2020-11-08 08:14:07
+SELECT * FROM  usuario
+2020-11-08 08:14:21
+SELECT * FROM  usuario
+2020-11-08 08:14:44
+SELECT * FROM  usuario
+2020-11-08 08:15:01
+SELECT * FROM  usuario
+2020-11-08 08:15:45
+SELECT * FROM  usuario
+2020-11-08 08:16:09
+SELECT * FROM  usuario
+2020-11-08 08:16:32
+SELECT * FROM  usuario
+2020-11-08 08:21:24
+SELECT * FROM  usuario
+2020-11-08 08:21:46
+SELECT * FROM  usuario
+2020-11-08 08:22:09
+SELECT * FROM  usuario
+2020-11-08 08:22:33
+SELECT * FROM  usuario
+2020-11-08 08:22:57
+SELECT * FROM  usuario
+2020-11-08 08:23:20
+SELECT * FROM  usuario
+2020-11-08 08:24:08
+SELECT * FROM  usuario
+2020-11-08 08:24:23
+SELECT * FROM  usuario
+2020-11-08 08:24:51
+SELECT * FROM  usuario
+2020-11-08 08:25:11
+SELECT * FROM  usuario
+2020-11-08 08:25:29
+SELECT * FROM  usuario
+2020-11-08 08:25:45
+SELECT * FROM  usuario
+2020-11-08 08:26:03
+SELECT * FROM  usuario
+2020-11-08 08:26:06
+SELECT * FROM  usuario
+2020-11-08 08:26:26
+SELECT * FROM  usuario
+2020-11-08 08:26:53
+SELECT * FROM  usuario
+2020-11-08 08:29:07
+SELECT * FROM  usuario
+2020-11-08 08:29:35
+SELECT * FROM  usuario
+2020-11-08 08:30:13
+SELECT * FROM  usuario
+2020-11-08 08:31:21
+SELECT * FROM  usuario
+2020-11-08 08:33:04
+SELECT * FROM  usuario
+2020-11-08 08:33:30
+SELECT * FROM  usuario
+2020-11-08 08:36:00
+SELECT * FROM  usuario
+2020-11-08 08:36:22
+SELECT * FROM  usuario
+2020-11-08 08:37:02
+SELECT * FROM  usuario
+2020-11-08 08:38:20
+SELECT * FROM  usuario
+2020-11-08 08:41:30
+SELECT * FROM  usuario
+2020-11-08 08:44:54
+SELECT * FROM  usuario
+2020-11-08 09:12:56
+SELECT * FROM  usuario
+2020-11-08 09:13:07
+SELECT * FROM  usuario
+2020-11-08 09:13:53
+SELECT * FROM  usuario
+2020-11-08 09:14:30
+SELECT * FROM  usuario
+2020-11-08 09:15:21
+SELECT * FROM  usuario
+2020-11-08 09:20:55
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-08 09:21:01
+SELECT * FROM  usuario
+2020-11-08 09:21:38
+SELECT * FROM  usuario
+2020-11-08 09:22:12
+SELECT * FROM  usuario
+2020-11-08 09:22:37
+SELECT * FROM  usuario
+2020-11-08 09:23:14
+SELECT * FROM  usuario
+2020-11-08 09:24:03
+SELECT * FROM  usuario
+2020-11-08 09:25:22
+SELECT * FROM  usuario
+2020-11-08 09:26:22
+SELECT * FROM  usuario
+2020-11-08 09:26:50
+SELECT * FROM  usuario
+2020-11-08 09:27:45
+SELECT * FROM  usuario
+2020-11-08 09:28:24
+SELECT * FROM  usuario
+2020-11-08 09:28:48
+SELECT * FROM  usuario
+2020-11-08 09:29:00
+SELECT * FROM  usuario
+2020-11-08 09:29:29
+SELECT * FROM  usuario
+2020-11-08 09:29:42
+SELECT * FROM  usuario
+2020-11-08 09:30:00
+SELECT * FROM  usuario
+2020-11-08 09:30:11
+SELECT * FROM  usuario
+2020-11-08 09:30:46
+SELECT * FROM  usuario
+2020-11-08 09:30:58
+SELECT * FROM  usuario
+2020-11-08 09:31:59
+SELECT * FROM  usuario
+2020-11-08 09:33:02
+SELECT * FROM  usuario
+2020-11-08 09:33:52
+SELECT * FROM  usuario
+2020-11-08 09:34:10
+SELECT * FROM  usuario
+2020-11-08 09:34:25
+SELECT * FROM  usuario
+2020-11-08 09:35:47
+SELECT * FROM  usuario
+2020-11-08 09:35:59
+SELECT * FROM  usuario
+2020-11-08 09:36:35
+SELECT * FROM  usuario
+2020-11-08 09:36:58
+SELECT * FROM  usuario
+2020-11-08 09:37:39
+SELECT * FROM  usuario
+2020-11-08 09:37:58
+SELECT * FROM  usuario
+2020-11-08 09:38:18
+SELECT * FROM  usuario
+2020-11-08 09:38:38
+SELECT * FROM  usuario
+2020-11-08 09:39:00
+SELECT * FROM  usuario
+2020-11-08 09:40:03
+SELECT * FROM  usuario
+2020-11-08 09:40:34
+SELECT * FROM  usuario
+2020-11-08 09:41:13
+SELECT * FROM  usuario
+2020-11-08 09:42:54
+SELECT * FROM  usuario
+2020-11-08 09:45:01
+SELECT * FROM  usuario
+2020-11-08 09:46:20
+SELECT * FROM  usuario
+2020-11-08 09:46:59
+SELECT * FROM  usuario
+2020-11-08 09:47:19
+SELECT * FROM  usuario
+2020-11-08 09:48:00
+SELECT * FROM  usuario
+2020-11-08 09:48:13
+SELECT * FROM  usuario
+2020-11-08 09:48:26
+SELECT * FROM  usuario
+2020-11-08 09:48:49
+SELECT * FROM  usuario
+2020-11-08 09:51:09
+SELECT * FROM  usuario
+2020-11-08 09:52:04
+SELECT * FROM  usuario
+2020-11-08 09:52:32
+SELECT * FROM  usuario
+2020-11-08 09:53:09
+SELECT * FROM  usuario
+2020-11-08 09:53:40
+SELECT * FROM  usuario
+2020-11-08 09:53:54
+SELECT * FROM  usuario
+2020-11-08 09:54:09
+SELECT * FROM  usuario
+2020-11-08 09:54:55
+SELECT * FROM  usuario
+2020-11-08 09:55:36
+SELECT * FROM  usuario
+2020-11-08 09:56:00
+SELECT * FROM  usuario
+2020-11-08 20:59:22
+SELECT * FROM  usuario
+2020-11-08 20:59:48
+SELECT * FROM  usuario
+2020-11-08 21:01:12
+SELECT * FROM  usuario
+2020-11-08 21:02:06
+SELECT * FROM  usuario
+2020-11-08 21:02:11
+SELECT * FROM  usuario
+2020-11-08 21:34:33
+SELECT * FROM  usuario
+2020-11-08 21:55:25
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-08 21:55:32
+SELECT * FROM  usuario
+2020-11-08 22:18:19
+SELECT * FROM  usuario
+2020-11-08 22:19:37
+SELECT * FROM  usuario
+2020-11-08 22:22:32
+SELECT * FROM  usuario
+2020-11-08 22:22:42
+SELECT * FROM  usuario
+2020-11-08 22:23:37
+SELECT * FROM  usuario
+2020-11-08 22:25:11
+SELECT * FROM  usuario
+2020-11-08 22:26:29
+SELECT * FROM  usuario
+2020-11-08 22:27:07
+SELECT * FROM  usuario
+2020-11-08 22:28:18
+SELECT * FROM  usuario
+2020-11-08 22:28:40
+SELECT * FROM  usuario
+2020-11-08 22:30:01
+SELECT * FROM  usuario
+2020-11-08 22:45:14
+SELECT * FROM  usuario
+2020-11-08 22:45:22
+DELETE FROM  revendedor where id=1
+2020-11-08 22:45:26
+SELECT * FROM  usuario
+2020-11-08 22:47:31
+SELECT * FROM  usuario
+2020-11-08 22:47:37
+UPDATE usuario SET estado=0 where id=1
+2020-11-08 22:47:39
+SELECT * FROM  usuario
+2020-11-08 22:47:58
+UPDATE usuario SET estado=0 where id=2
+2020-11-08 22:48:02
+SELECT * FROM  usuario
+2020-11-08 22:50:15
+SELECT * FROM  usuario
+2020-11-08 22:50:25
+UPDATE usuario SET estado=0 where id=4
+2020-11-08 22:50:34
+SELECT * FROM  usuario
+2020-11-08 22:51:54
+UPDATE usuario SET estado=0 where id=11
+2020-11-08 22:52:00
+SELECT * FROM  usuario
+2020-11-08 22:58:36
+SELECT * FROM  usuario
+2020-11-08 22:59:06
+SELECT * FROM  usuario
+2020-11-08 23:04:51
+SELECT * FROM  usuario
+2020-11-08 23:05:09
+UPDATE usuario SET estado=0 where id=1
+2020-11-08 23:05:14
+SELECT * FROM  usuario
+2020-11-08 23:05:40
+UPDATE usuario SET estado=0 where id=9
+2020-11-08 23:05:43
+SELECT * FROM  usuario
+2020-11-08 23:05:58
+UPDATE usuario SET estado=0 where id=8
+2020-11-08 23:06:00
+SELECT * FROM  usuario
+2020-11-08 23:06:31
+SELECT * FROM  usuario
+2020-11-08 23:07:00
+SELECT * FROM  usuario
+2020-11-08 23:07:35
+SELECT * FROM  usuario
+2020-11-08 23:10:25
+SELECT * FROM  usuario
+2020-11-09 00:12:47
+SELECT * FROM  usuario
+2020-11-09 00:13:46
+SELECT * FROM  usuario
+2020-11-09 00:17:06
+SELECT * FROM  usuario
+2020-11-09 00:18:17
+SELECT * FROM  usuario
+2020-11-09 00:20:10
+SELECT * FROM  usuario
+2020-11-09 00:20:26
+SELECT * FROM  usuario
+2020-11-09 00:21:15
+SELECT * FROM  usuario
+2020-11-09 00:21:54
+SELECT * FROM  usuario
+2020-11-09 00:22:08
+SELECT * FROM  usuario
+2020-11-09 00:26:42
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-09 00:29:44
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-09 00:29:49
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-09 00:30:45
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-09 00:40:13
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-09 00:41:59
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-09 00:42:05
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-09 00:42:40
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-09 00:44:07
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-09 00:44:12
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-09 00:44:19
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-09 00:45:15
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-09 01:50:29
+SELECT * FROM  usuario
+2020-11-09 04:11:31
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`, `duracion`, `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('perfume today','','','','','','','2022-10-18','100','','')
+2020-11-09 04:12:08
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-09 04:24:52
+INSERT INTO `usuario`(`nombre`, `descripcion`, `foto`, `fecha_ingreso`, `fecha_vencimiento`, `precio_costo`, `cantidad`, `stock_minimo`, `stock_maximmo`) VALUES('perfume today','perfume 100 ml','','2020-11-11','2021-10-21','1000','50','5','100',1)
+2020-11-09 04:36:11
+INSERT INTO `producto` (`nombre`, `descripcion`, `foto`, `fecha_ingreso`, `fecha_vencimiento`, `precio_costo`, `cantidad`, `stock_minimo`, `stock_maximo`, `estado`) VALUES ('perfume today','perfume 100 ml','','2020-11-04','2023-10-25','1000','50','5','100',1)
+2020-11-09 04:41:18
+INSERT INTO `producto` (`nombre`, `descripcion`, `foto`, `fecha_ingreso`, `fecha_vencimiento`, `precio_costo`, `cantidad`, `stock_minimo`, `stock_maximo`, `estado`) VALUES ('rimel negro','rimel 100 ml','','2020-11-04','2021-11-21','100','50','5','50',1)
+2020-11-09 04:50:32
+SELECT * FROM  usuario
+2020-11-09 05:03:51
+SELECT * FROM  producto
+2020-11-09 05:04:47
+SELECT * FROM  producto
+2020-11-09 05:07:40
+SELECT * FROM  producto
+2020-11-09 05:07:46
+UPDATE producto SET estado=0 where id=1
+2020-11-09 05:07:49
+SELECT * FROM  producto
+2020-11-09 05:08:17
+SELECT * FROM  producto
+2020-11-09 05:14:30
+SELECT * FROM  producto
+2020-11-09 05:15:54
+SELECT * FROM  producto
+2020-11-09 05:16:15
+SELECT * FROM  producto
+2020-11-09 05:47:15
+SELECT * FROM  usuario
+2020-11-09 05:48:31
+SELECT * FROM  usuario
+2020-11-09 05:49:51
+SELECT * FROM  usuario
+2020-11-09 05:50:03
+SELECT * FROM  usuario
+2020-11-10 23:13:13
+SELECT * FROM  usuario
+2020-11-10 23:13:32
+SELECT * FROM  usuario
+2020-11-10 23:29:39
+SELECT * FROM  usuario
+2020-11-13 01:53:33
+SELECT * FROM  usuario
+2020-11-13 01:53:52
+SELECT * FROM  usuario
+2020-11-13 01:56:25
+SELECT * FROM  usuario
+2020-11-13 01:56:26
+SELECT * FROM  usuario
+2020-11-13 02:05:06
+SELECT * FROM  usuario
+2020-11-13 02:07:02
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-13 02:10:37
+SELECT * FROM  usuario
+2020-11-13 02:11:02
+SELECT * FROM  usuario
+2020-11-13 04:53:35
+SELECT * FROM  usuario
+2020-11-13 04:53:46
+SELECT * FROM  usuario
+2020-11-13 04:56:57
+SELECT * FROM  usuario
+2020-11-13 05:11:28
+SELECT * FROM  usuario
+2020-11-13 05:13:39
+SELECT * FROM  usuario
+2020-11-13 05:15:57
+SELECT * FROM  usuario
+2020-11-13 05:16:36
+SELECT * FROM  usuario
+2020-11-13 05:18:41
+SELECT * FROM  usuario
+2020-11-13 05:23:38
+SELECT * FROM  usuario
+2020-11-13 05:23:42
+SELECT * FROM  usuario
+2020-11-13 05:24:12
+SELECT * FROM  usuario
+2020-11-13 05:25:53
+SELECT * FROM  usuario
+2020-11-13 05:32:51
+SELECT * FROM  usuario
+2020-11-13 05:33:14
+SELECT * FROM  usuario
+2020-11-13 05:35:23
+SELECT * FROM  usuario
+2020-11-13 05:45:15
+SELECT * FROM  usuario
+2020-11-13 05:47:57
+SELECT * FROM  usuario
+2020-11-13 05:48:39
+SELECT * FROM  usuario
+2020-11-13 05:49:18
+SELECT * FROM  usuario
+2020-11-13 05:50:00
+SELECT * FROM  usuario
+2020-11-13 05:53:08
+SELECT * FROM  usuario
+2020-11-13 06:05:18
+SELECT * FROM  usuario
+2020-11-13 06:08:23
+SELECT * FROM  usuario
+2020-11-13 06:09:01
+SELECT * FROM  usuario
+2020-11-13 06:09:02
+SELECT * FROM  usuario
+2020-11-13 06:09:11
+SELECT * FROM  usuario
+2020-11-13 06:10:44
+SELECT * FROM  usuario
+2020-11-13 06:11:09
+SELECT * FROM  usuario
+2020-11-13 06:11:48
+SELECT * FROM  usuario
+2020-11-13 06:12:09
+SELECT * FROM  usuario
+2020-11-13 06:12:49
+SELECT * FROM  usuario
+2020-11-13 06:13:08
+SELECT * FROM  usuario
+2020-11-13 06:13:23
+SELECT * FROM  usuario
+2020-11-13 06:13:48
+SELECT * FROM  usuario
+2020-11-13 06:15:03
+SELECT * FROM  usuario
+2020-11-13 06:17:03
+SELECT * FROM  usuario
+2020-11-13 06:41:52
+SELECT * FROM  usuario
+2020-11-13 06:43:02
+SELECT * FROM  usuario
+2020-11-13 06:43:13
+SELECT * FROM  usuario
+2020-11-13 06:43:35
+SELECT * FROM  usuario
+2020-11-13 06:44:00
+SELECT * FROM  usuario
+2020-11-13 06:45:27
+SELECT * FROM  usuario
+2020-11-13 06:45:31
+SELECT * FROM  usuario
+2020-11-13 06:46:01
+SELECT * FROM  usuario
+2020-11-13 06:47:31
+SELECT * FROM  usuario
+2020-11-13 06:47:44
+SELECT * FROM  usuario
+2020-11-13 06:48:35
+SELECT * FROM  usuario
+2020-11-13 06:49:02
+SELECT * FROM  usuario
+2020-11-13 06:49:32
+SELECT * FROM  usuario
+2020-11-13 06:51:48
+SELECT * FROM  usuario
+2020-11-13 06:52:11
+SELECT * FROM  usuario
+2020-11-13 06:53:04
+SELECT * FROM  usuario
+2020-11-13 06:54:00
+SELECT * FROM  usuario
+2020-11-13 06:55:00
+SELECT * FROM  usuario
+2020-11-13 06:59:37
+SELECT * FROM  usuario
+2020-11-13 07:00:52
+SELECT * FROM  usuario
+2020-11-13 07:00:58
+SELECT * FROM  usuario
+2020-11-13 16:51:09
+SELECT * FROM  usuario
+2020-11-13 16:51:43
+SELECT * FROM  usuario
+2020-11-13 16:52:12
+SELECT * FROM  usuario
+2020-11-13 16:52:30
+SELECT * FROM  usuario
+2020-11-13 16:54:01
+SELECT * FROM  usuario
+2020-11-13 16:55:26
+SELECT * FROM  usuario
+2020-11-13 16:58:02
+SELECT * FROM  usuario
+2020-11-13 16:58:26
+SELECT * FROM  usuario
+2020-11-13 16:58:58
+SELECT * FROM  usuario
+2020-11-13 16:59:17
+SELECT * FROM  usuario
+2020-11-13 17:00:08
+SELECT * FROM  usuario
+2020-11-13 17:00:45
+SELECT * FROM  usuario
+2020-11-13 17:06:10
+SELECT * FROM  usuario
+2020-11-13 17:07:45
+SELECT * FROM  usuario
+2020-11-13 17:07:59
+SELECT * FROM  usuario
+2020-11-13 17:08:28
+SELECT * FROM  usuario
+2020-11-13 17:13:35
+SELECT * FROM  usuario
+2020-11-13 17:14:48
+SELECT * FROM  usuario
+2020-11-13 17:16:24
+SELECT * FROM  usuario
+2020-11-13 17:17:41
+SELECT * FROM  usuario
+2020-11-13 17:17:51
+SELECT * FROM  usuario
+2020-11-13 17:18:04
+SELECT * FROM  usuario
+2020-11-13 17:18:17
+SELECT * FROM  usuario
+2020-11-13 17:18:58
+SELECT * FROM  usuario
+2020-11-13 17:19:24
+SELECT * FROM  usuario
+2020-11-13 17:22:50
+SELECT * FROM  usuario
+2020-11-13 17:25:23
+SELECT * FROM  usuario
+2020-11-13 17:26:41
+SELECT * FROM  usuario
+2020-11-13 17:27:00
+SELECT * FROM  usuario
+2020-11-13 17:27:37
+SELECT * FROM  usuario
+2020-11-13 17:28:02
+SELECT * FROM  usuario
+2020-11-13 18:10:31
+SELECT * FROM  usuario
+2020-11-13 18:41:39
+SELECT * FROM  usuario
+2020-11-13 18:42:39
+SELECT * FROM  usuario
+2020-11-13 18:42:53
+SELECT * FROM  producto
+2020-11-13 18:43:40
+SELECT * FROM  usuario
+2020-11-13 18:45:09
+SELECT * FROM  usuario
+2020-11-13 18:45:31
+SELECT * FROM  usuario
+2020-11-13 18:46:20
+SELECT * FROM  usuario
+2020-11-13 18:48:34
+SELECT * FROM  producto
+2020-11-13 19:40:45
+SELECT * FROM  producto
+2020-11-13 19:42:33
+SELECT * FROM  producto
+2020-11-13 20:12:23
+SELECT * FROM  producto
+2020-11-13 20:12:32
+SELECT * FROM  producto
+2020-11-13 20:12:43
+SELECT * FROM  producto
+2020-11-13 20:16:08
+SELECT * FROM  producto
+2020-11-13 20:17:18
+SELECT * FROM  producto
+2020-11-13 20:19:07
+SELECT * FROM  producto
+2020-11-13 20:19:25
+SELECT * FROM  producto
+2020-11-13 20:31:50
+SELECT * FROM  producto
+2020-11-13 20:32:07
+SELECT * FROM  producto
+2020-11-13 20:52:20
+SELECT * FROM  producto
+2020-11-13 20:52:33
+SELECT * FROM  producto
+2020-11-13 20:53:25
+SELECT * FROM  producto
+2020-11-13 20:54:32
+SELECT * FROM  producto
+2020-11-13 20:54:56
+SELECT * FROM  producto
+2020-11-13 20:55:12
+SELECT * FROM  producto
+2020-11-13 20:56:18
+SELECT * FROM  producto
+2020-11-13 20:56:48
+SELECT * FROM  producto
+2020-11-13 20:57:05
+SELECT * FROM  usuario
+2020-11-13 20:57:22
+SELECT * FROM  usuario
+2020-11-13 20:57:38
+SELECT * FROM  producto
+2020-11-13 20:58:01
+SELECT * FROM  usuario
+2020-11-13 20:59:33
+SELECT * FROM  usuario
+2020-11-13 20:59:53
+SELECT * FROM  usuario
+2020-11-13 21:01:18
+SELECT * FROM  usuario
+2020-11-13 21:03:46
+SELECT * FROM  usuario
+2020-11-13 21:07:23
+SELECT * FROM  usuario
+2020-11-13 21:11:25
+SELECT * FROM  usuario
+2020-11-13 21:11:59
+SELECT * FROM  usuario
+2020-11-13 21:12:16
+SELECT * FROM  usuario
+2020-11-13 21:12:50
+SELECT * FROM  usuario
+2020-11-13 21:13:27
+SELECT * FROM  usuario
+2020-11-13 21:14:31
+SELECT * FROM  usuario
+2020-11-13 21:15:51
+SELECT * FROM  usuario
+2020-11-13 21:16:26
+SELECT * FROM  usuario
+2020-11-13 21:17:02
+SELECT * FROM  usuario
+2020-11-13 21:18:28
+SELECT * FROM  producto
+2020-11-13 21:23:34
+SELECT * FROM  producto
+2020-11-13 21:24:13
+SELECT * FROM  producto
+2020-11-13 21:24:14
+SELECT * FROM  producto
+2020-11-13 21:25:40
+SELECT * FROM  producto
+2020-11-13 21:26:00
+SELECT * FROM  producto
+2020-11-13 21:27:18
+SELECT * FROM  producto
+2020-11-13 21:31:53
+SELECT * FROM  producto
+2020-11-13 21:32:22
+SELECT * FROM  producto
+2020-11-13 21:51:56
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-13 21:53:17
+SELECT * FROM  usuario
+2020-11-13 21:53:32
+SELECT * FROM  producto
+2020-11-13 21:53:53
+SELECT * FROM  producto
+2020-11-13 21:54:12
+SELECT * FROM  producto
+2020-11-13 21:54:44
+SELECT * FROM  producto
+2020-11-13 21:54:53
+UPDATE producto SET estado=0 where id=3
+2020-11-13 21:54:56
+SELECT * FROM  producto
+2020-11-14 01:48:29
+SELECT * FROM  producto
+2020-11-14 02:07:54
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-14 02:21:01
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-14 02:21:50
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-14 02:21:54
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-14 02:22:03
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-14 02:22:25
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-14 02:23:47
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `referente`, `bonificacion`, `id_rol`,`id_negocio`) VALUES('viva@gmail.com','la pepa','jajaj','87685789','2020-11-17','','',now(),'lola','¿Cúal es el nombre de tu primer mascota?','kiko','8',0,2,2)
+2020-11-14 02:26:05
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-14 02:29:50
+SELECT * FROM  usuario
+2020-11-14 02:29:58
+SELECT * FROM  usuario
+2020-11-14 02:30:05
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-14 02:30:12
+SELECT * FROM  usuario
+2020-11-14 02:30:21
+SELECT * FROM  usuario
+2020-11-14 02:30:31
+SELECT * FROM  usuario
+2020-11-14 02:35:52
+SELECT * FROM  producto
+2020-11-14 02:35:58
+SELECT * FROM  producto
+2020-11-14 02:37:57
+INSERT INTO `producto` (`nombre`, `descripcion`, `foto`, `fecha_ingreso`, `fecha_vencimiento`, `precio_costo`, `cantidad`, `stock_minimo`, `stock_maximo`, `estado`) VALUES ('','','','','','','','','',1)
+2020-11-14 02:40:33
+SELECT * FROM  producto
+2020-11-14 02:41:34
+INSERT INTO `producto` (`nombre`, `descripcion`, `foto`, `fecha_ingreso`, `fecha_vencimiento`, `precio_costo`, `cantidad`, `stock_minimo`, `stock_maximo`, `estado`) VALUES ('collar luna','collar de metal','','2020-11-24','2020-11-19','1000','50','5','100',1)
+2020-11-14 02:41:50
+SELECT * FROM  producto
+2020-11-14 02:42:01
+UPDATE producto SET estado=0 where id=5
+2020-11-14 02:42:04
+SELECT * FROM  producto
+2020-11-14 02:42:11
+SELECT * FROM  usuario
+2020-11-14 02:42:20
+UPDATE usuario SET estado=0 where id=18
+2020-11-14 02:42:23
+SELECT * FROM  usuario
+2020-11-14 04:01:47
+SELECT * FROM  producto
+2020-11-14 04:15:49
+SELECT * FROM  producto
+2020-11-14 04:20:36
+SELECT * FROM  producto
+2020-11-14 04:21:08
+SELECT * FROM  producto
+2020-11-14 04:21:25
+SELECT * FROM  producto
+2020-11-14 04:23:42
+SELECT * FROM  producto
+2020-11-14 04:26:05
+SELECT * FROM  producto
+2020-11-14 04:27:23
+SELECT * FROM  producto
+2020-11-14 04:29:48
+SELECT * FROM  producto
+2020-11-14 04:32:09
+SELECT * FROM  producto
+2020-11-14 04:33:31
+SELECT * FROM  producto
+2020-11-14 04:35:02
+SELECT * FROM  producto
+2020-11-14 04:36:11
+SELECT * FROM  producto
+2020-11-14 04:40:15
+SELECT * FROM  producto
+2020-11-14 04:43:19
+SELECT * FROM  producto
+2020-11-14 04:48:24
+SELECT * FROM  producto
+2020-11-14 04:49:49
+SELECT * FROM  producto
+2020-11-14 04:50:06
+SELECT * FROM  producto
+2020-11-14 04:50:21
+SELECT * FROM  producto
+2020-11-14 04:52:12
+SELECT * FROM  producto
+2020-11-14 04:52:51
+SELECT * FROM  producto
+2020-11-14 04:53:11
+SELECT * FROM  producto
+2020-11-14 04:53:25
+SELECT * FROM  producto
+2020-11-14 04:56:56
+SELECT * FROM  producto
+2020-11-14 04:57:43
+SELECT * FROM  producto
+2020-11-14 05:00:02
+SELECT * FROM  producto
+2020-11-14 05:00:29
+SELECT * FROM  producto
+2020-11-14 05:00:54
+SELECT * FROM  producto
+2020-11-14 05:07:22
+SELECT * FROM  producto
+2020-11-14 05:07:44
+SELECT * FROM  producto
+2020-11-14 05:08:00
+SELECT * FROM  producto
+2020-11-14 05:08:31
+SELECT * FROM  producto
+2020-11-14 05:09:23
+SELECT * FROM  producto
+2020-11-14 05:09:50
+SELECT * FROM  producto
+2020-11-14 05:13:38
+SELECT * FROM  producto
+2020-11-14 05:16:09
+SELECT * FROM  producto
+2020-11-14 05:18:15
+SELECT * FROM  producto
+2020-11-14 05:23:14
+SELECT * FROM  producto
+2020-11-14 05:23:30
+SELECT * FROM  producto
+2020-11-14 05:33:24
+SELECT * FROM  producto
+2020-11-14 05:58:43
+SELECT * FROM  producto
+2020-11-14 06:01:28
+SELECT * FROM  producto
+2020-11-14 06:03:11
+SELECT * FROM  producto
+2020-11-14 06:06:13
+SELECT * FROM  producto
+2020-11-14 06:10:30
+SELECT * FROM  producto
+2020-11-14 06:17:26
+SELECT * FROM  producto
+2020-11-14 07:00:02
+SELECT * FROM  producto
+2020-11-14 21:34:12
+SELECT * FROM  producto
+2020-11-14 21:39:49
+SELECT * FROM  producto
+2020-11-14 21:40:28
+SELECT * FROM  producto
+2020-11-14 22:32:24
+SELECT * FROM  producto
+2020-11-14 23:00:11
+SELECT * FROM  producto
+2020-11-14 23:00:39
+SELECT * FROM  producto
+2020-11-14 23:06:56
+SELECT * FROM  producto
+2020-11-14 23:08:43
+SELECT * FROM  producto
+2020-11-14 23:10:00
+SELECT * FROM  producto
+2020-11-15 03:11:07
+SELECT * FROM  producto
+2020-11-15 03:15:44
+SELECT * FROM  producto
+2020-11-15 03:20:11
+SELECT * FROM  producto
+2020-11-15 03:22:55
+SELECT * FROM  producto
+2020-11-15 03:26:09
+SELECT * FROM  producto
+2020-11-15 03:27:57
+SELECT * FROM  producto
+2020-11-15 03:33:32
+SELECT * FROM  producto
+2020-11-15 03:38:20
+SELECT * FROM  producto
+2020-11-15 03:39:22
+SELECT * FROM  producto
+2020-11-15 03:40:52
+SELECT * FROM  producto
+2020-11-15 03:41:56
+SELECT * FROM  producto
+2020-11-15 03:42:49
+SELECT * FROM  producto
+2020-11-15 03:43:22
+SELECT * FROM  producto
+2020-11-15 03:44:54
+SELECT * FROM  producto
+2020-11-15 07:26:16
+SELECT * FROM  producto
+2020-11-15 07:29:37
+SELECT * FROM  producto
+2020-11-15 07:31:04
+SELECT * FROM  producto
+2020-11-15 07:34:26
+SELECT * FROM  producto
+2020-11-15 07:36:58
+SELECT * FROM  producto
+2020-11-15 07:37:20
+SELECT * FROM  producto
+2020-11-15 07:42:42
+SELECT * FROM  producto
+2020-11-15 07:43:18
+SELECT * FROM  producto
+2020-11-15 07:44:22
+SELECT * FROM  producto
+2020-11-15 07:44:58
+SELECT * FROM  producto
+2020-11-15 07:45:32
+SELECT * FROM  producto
+2020-11-15 07:46:08
+SELECT * FROM  producto
+2020-11-15 07:46:30
+SELECT * FROM  producto
+2020-11-15 07:47:19
+SELECT * FROM  producto
+2020-11-15 07:49:08
+SELECT * FROM  producto
+2020-11-15 07:49:39
+SELECT * FROM  producto
+2020-11-15 07:51:53
+SELECT * FROM  producto
+2020-11-15 07:52:30
+SELECT * FROM  producto
+2020-11-15 07:53:58
+SELECT * FROM  producto
+2020-11-15 08:02:04
+SELECT * FROM  producto
+2020-11-15 08:03:01
+SELECT * FROM  producto
+2020-11-15 08:05:40
+SELECT * FROM  producto
+2020-11-15 08:06:15
+SELECT * FROM  producto
+2020-11-15 08:06:46
+SELECT * FROM  producto
+2020-11-15 08:07:56
+SELECT * FROM  producto
+2020-11-15 08:09:41
+SELECT * FROM  producto
+2020-11-15 08:16:36
+SELECT * FROM  producto
+2020-11-15 08:17:09
+SELECT * FROM  producto
+2020-11-15 08:20:43
+SELECT * FROM  producto
+2020-11-15 08:22:58
+SELECT * FROM  producto
+2020-11-15 19:16:52
+SELECT * FROM  producto
+2020-11-15 19:18:40
+SELECT * FROM  producto
+2020-11-15 19:19:17
+SELECT * FROM  producto
+2020-11-15 19:19:52
+SELECT * FROM  producto
+2020-11-15 19:20:11
+SELECT * FROM  producto
+2020-11-15 19:31:08
+SELECT * FROM  producto
+2020-11-15 19:40:10
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-15 20:06:53
+SELECT * FROM  producto
+2020-11-15 20:10:28
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-15 20:13:13
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-15 20:13:18
+SELECT * FROM  producto
+2020-11-15 20:21:46
+SELECT * FROM  producto
+2020-11-15 20:22:24
+SELECT * FROM  producto
+2020-11-15 20:23:33
+SELECT * FROM  producto
+2020-11-15 20:29:17
+SELECT * FROM  producto
+2020-11-15 20:30:31
+SELECT * FROM  producto
+2020-11-15 20:32:22
+SELECT * FROM  producto
+2020-11-15 20:50:33
+SELECT * FROM  producto
+2020-11-15 20:52:14
+SELECT * FROM  producto
+2020-11-15 20:52:25
+SELECT * FROM  producto
+2020-11-15 20:52:45
+SELECT * FROM  producto
+2020-11-15 20:53:13
+SELECT * FROM  producto
+2020-11-15 20:54:00
+SELECT * FROM  producto
+2020-11-15 20:54:23
+SELECT * FROM  producto
+2020-11-15 20:54:44
+SELECT * FROM  producto
+2020-11-15 20:55:24
+SELECT * FROM  producto
+2020-11-15 20:56:09
+SELECT * FROM  producto
+2020-11-15 20:56:49
+SELECT * FROM  producto
+2020-11-15 21:13:29
+SELECT * FROM  producto
+2020-11-15 21:13:54
+SELECT * FROM  producto
+2020-11-15 21:19:02
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-15 21:28:49
+SELECT * FROM  producto
+2020-11-15 21:29:49
+SELECT * FROM  producto
+2020-11-15 21:34:03
+SELECT * FROM  producto
+2020-11-15 21:35:40
+SELECT * FROM  producto
+2020-11-15 21:36:26
+SELECT * FROM  producto
+2020-11-15 21:36:30
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-15 21:36:34
+SELECT * FROM  usuario
+2020-11-15 21:36:53
+SELECT * FROM  producto
+2020-11-15 23:43:16
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('pato','Alimentos','pato@gmail.com','','','','2020-11-09','3000','25','5')
+2020-11-15 23:52:21
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('mostaza','Bazar','asquito@gmail.com','','','','2020-11-18','3000','20','5')
+2020-11-15 23:55:09
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('pato','Calzado','pato@gmail.com','fgd','22222','','2020-11-11','3000','40','5')
+2020-11-16 00:00:30
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('perfume today','Servicios','cesar@gmail.com','','','','2020-11-20','3000','30','5')
+2020-11-16 00:06:18
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('perfume today','Ropa','lolala@gmail.com','fgd','22222','','2020-11-12','3000','50','15')
+2020-11-16 00:08:22
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('perfume today','Bazar','hhhhhhhhhhh@gmail.com','fgd','22222','','2020-12-02','3000','35','5')
+2020-11-16 00:13:39
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('brubru','Alimentos','dgdgdr@gmail.com','fgd','22222','','2020-11-21','3000','40','5')
+2020-11-16 00:15:22
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `file`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('rimel negro','Bazar','gjgc@gmail.com','fgd','22222','','2020-11-23','3000','65','10')
+2020-11-16 00:32:13
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `file`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('pato','Ropa','pato@gmail.com','fgd','22222','','2020-11-11','3000','50','25')
+2020-11-16 00:33:03
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `file`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('pato','Ropa','pato@gmail.com','fgd','22222','','2020-11-11','3000','50','25')
+2020-11-16 00:34:08
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `file`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('pato','Calzado','jiiijijiji@gmail.com','fgd','22222','','2020-11-20','3000','35','5')
+2020-11-16 00:35:22
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `file`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('jiji','Calzado','jiiijijiji@gmail.com','fgd','22222','','2020-11-19','3000','35','5')
+2020-11-16 00:36:39
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('jiji','Bazar','jiiijijiji@gmail.com','fgd','22222','','2020-11-18','3000','25','5')
+2020-11-16 00:46:38
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('fff','Ropa','fa@gmail.com','fgd','22222','CARITA LIS.jpg','2020-11-09','3000','35','10')
+2020-11-16 00:50:25
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('perfume today','Calzado','leonn@gmail.com','fgd','22222','cosmeticos_chic.jpg','2020-11-04','3000','50','60')
+2020-11-16 00:52:13
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('cesar','Ropa','lolaloca@gmail.com','fgd','22222','reclutar_logo.jpg','2020-11-05','3000','35','20')
+2020-11-16 00:55:21
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('cesar','Ropa','lis.mendoza.cc@gmail.com','fgd','22222','','2020-11-04','perfume floral 100 ml','60','50')
+2020-11-16 06:16:35
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-16 06:17:12
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-16 06:17:44
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-11-16 06:18:35
+SELECT * FROM `usuario` WHERE e_mail = 'bosterosputos@gmail.com' AND contrasenia = 'lola' 
+2020-11-16 06:44:27
+SELECT * FROM  producto
+2020-11-16 06:52:18
+SELECT * FROM  producto
+2020-11-16 07:31:27
+SELECT * FROM  producto
+2020-11-16 07:32:01
+SELECT * FROM  producto
+2020-11-16 07:59:13
+SELECT * FROM  producto
+2020-11-16 07:59:56
+SELECT * FROM  producto
+2020-11-16 08:01:40
+SELECT * FROM  producto
+2020-11-16 08:01:43
+SELECT * FROM  producto
+2020-11-16 08:04:22
+SELECT * FROM  producto
+2020-11-16 08:04:25
+SELECT * FROM  producto
+2020-11-16 08:04:29
+SELECT * FROM  producto
+2020-11-16 08:04:33
+SELECT * FROM  producto
+2020-11-16 08:07:58
+SELECT * FROM  producto
+2020-11-16 08:08:01
+SELECT * FROM  producto
+2020-11-16 08:11:17
+SELECT * FROM  producto
+2020-11-16 08:11:20
+SELECT * FROM  producto
+2020-11-16 08:13:37
+SELECT * FROM  producto
+2020-11-16 08:13:41
+SELECT * FROM  producto
+2020-11-16 08:15:24
+SELECT * FROM  producto
+2020-11-16 08:15:27
+SELECT * FROM  producto
+2020-11-16 17:26:54
+SELECT * FROM  producto
+2020-11-16 18:07:09
+SELECT * FROM  producto
+2020-11-16 18:33:52
+SELECT * FROM  producto
+2020-11-16 18:46:32
+SELECT * FROM  producto
+2020-11-16 19:19:09
+SELECT * FROM  producto
+2020-11-16 19:34:58
+SELECT * FROM  producto
+2020-11-16 19:45:28
+SELECT * FROM  producto
+2020-11-16 19:48:01
+SELECT * FROM  producto
+2020-11-16 19:58:33
+SELECT * FROM  producto
+2020-11-16 19:59:00
+SELECT * FROM  producto
+2020-11-16 20:00:54
+SELECT * FROM  producto
+2020-11-16 20:01:18
+SELECT * FROM  producto
+2020-11-16 20:01:27
+SELECT * FROM  producto
+2020-11-16 20:02:51
+SELECT * FROM  producto
+2020-11-16 20:05:15
+SELECT * FROM  producto
+2020-11-16 20:05:37
+SELECT * FROM  producto
+2020-11-16 20:07:14
+SELECT * FROM  producto
+2020-11-16 20:07:58
+SELECT * FROM  producto
+2020-11-16 20:08:18
+SELECT * FROM  producto
+2020-11-16 20:08:40
+SELECT * FROM  producto
+2020-11-16 20:08:59
+SELECT * FROM  producto
+2020-11-16 20:10:23
+SELECT * FROM  producto
+2020-11-16 20:19:30
+SELECT * FROM  producto
+2020-11-16 20:20:34
+SELECT * FROM  producto
+2020-11-16 20:20:47
+SELECT * FROM  producto
+2020-11-16 20:22:09
+SELECT * FROM  producto
+2020-11-16 20:23:33
+SELECT * FROM  producto
+2020-11-16 20:24:49
+SELECT * FROM  producto
+2020-11-16 20:27:25
+SELECT * FROM  producto
+2020-11-16 20:27:48
+SELECT * FROM  producto
+2020-11-16 20:28:29
+SELECT * FROM  producto
+2020-11-16 20:28:36
+SELECT * FROM  producto
+2020-11-16 20:30:45
+SELECT * FROM  producto
+2020-11-16 20:31:38
+SELECT * FROM  producto
+2020-11-16 20:32:32
+SELECT * FROM  producto
+2020-11-16 20:33:57
+SELECT * FROM  producto
+2020-11-16 20:34:02
+SELECT * FROM  producto
+2020-11-16 20:35:21
+SELECT * FROM  producto
+2020-11-16 20:35:59
+SELECT * FROM  producto
+2020-11-16 20:36:42
+SELECT * FROM  producto
+2020-11-16 20:37:23
+SELECT * FROM  producto
+2020-11-16 20:38:26
+SELECT * FROM  producto
+2020-11-16 20:38:35
+SELECT * FROM  producto
+2020-11-16 20:38:38
+SELECT * FROM  producto
+2020-11-16 20:40:27
+SELECT * FROM  producto
+2020-11-16 20:43:02
+SELECT * FROM  producto
+2020-11-16 20:43:18
+SELECT * FROM  producto
+2020-11-16 20:43:54
+SELECT * FROM  producto
+2020-11-16 20:44:15
+SELECT * FROM  producto
+2020-11-16 20:44:52
+SELECT * FROM  producto
+2020-11-16 20:45:51
+SELECT * FROM  producto
+2020-11-16 20:47:00
+SELECT * FROM  producto
+2020-11-16 20:48:32
+SELECT * FROM  producto
+2020-11-16 20:48:50
+SELECT * FROM  producto
+2020-11-16 20:53:19
+SELECT * FROM  producto
+2020-11-16 20:54:13
+SELECT * FROM  producto
+2020-11-16 20:55:34
+SELECT * FROM  producto
+2020-11-16 20:55:58
+SELECT * FROM  producto
+2020-11-16 20:57:10
+SELECT * FROM  producto
+2020-11-16 20:57:26
+SELECT * FROM  producto
+2020-11-16 20:57:41
+SELECT * FROM  producto
+2020-11-16 20:57:52
+SELECT * FROM  producto
+2020-11-16 20:58:39
+SELECT * FROM  producto
+2020-11-16 20:59:30
+SELECT * FROM  producto
+2020-11-16 21:00:06
+SELECT * FROM  producto
+2020-11-16 21:00:33
+SELECT * FROM  producto
+2020-11-16 21:01:24
+SELECT * FROM  producto
+2020-11-16 21:01:57
+SELECT * FROM  producto
+2020-11-16 21:04:23
+SELECT * FROM  producto
+2020-11-16 21:04:28
+SELECT * FROM  producto where id in (["4","5"])
+2020-11-16 21:04:49
+SELECT * FROM  producto
+2020-11-16 21:04:54
+SELECT * FROM  producto where id in (Array)
+2020-11-16 21:05:28
+SELECT * FROM  producto
+2020-11-16 21:05:44
+SELECT * FROM  producto
+2020-11-16 21:05:49
+SELECT * FROM  producto where id in (Array)
+2020-11-16 21:06:02
+SELECT * FROM  producto
+2020-11-16 21:06:07
+SELECT * FROM  producto where id in (Array)
+2020-11-16 21:07:48
+SELECT * FROM  producto
+2020-11-16 21:07:54
+SELECT * FROM  producto where id in (undefined3,5,)
+2020-11-16 21:08:26
+SELECT * FROM  producto
+2020-11-16 21:11:49
+SELECT * FROM  producto
+2020-11-16 21:12:12
+SELECT * FROM  producto
+2020-11-16 21:12:17
+SELECT * FROM  producto where id in (4,5,)
+2020-11-16 21:14:12
+SELECT * FROM  producto
+2020-11-16 21:14:41
+SELECT * FROM  producto
+2020-11-16 21:14:46
+SELECT * FROM  producto where id in (4 , 5)
+2020-11-16 21:15:17
+SELECT * FROM  producto
+2020-11-16 21:15:24
+SELECT * FROM  producto where id in (4 , 5)
+2020-11-16 21:18:28
+SELECT * FROM  producto
+2020-11-16 21:18:33
+SELECT * FROM  producto where id in (3 , 4)
+2020-11-16 21:27:20
+SELECT * FROM  producto
+2020-11-16 21:27:25
+SELECT * FROM  producto where id in (2 , 3)
+2020-11-16 21:28:50
+SELECT * FROM  producto
+2020-11-16 21:28:55
+SELECT * FROM  producto where id in (3 , 4)
+2020-11-16 21:30:22
+SELECT * FROM  producto
+2020-11-16 21:30:27
+SELECT * FROM  producto where id in (3 , 5)
+2020-11-16 21:32:14
+SELECT * FROM  producto
+2020-11-16 21:32:19
+SELECT * FROM  producto where id in (3 , 4)
+2020-11-16 21:32:25
+UPDATE producto SET estado=0 where id=
+2020-11-16 21:32:30
+SELECT * FROM  producto
+2020-11-16 21:34:30
+SELECT * FROM  producto
+2020-11-16 21:34:36
+SELECT * FROM  producto where id in (2 , 5)
+2020-11-16 21:34:46
+UPDATE producto SET estado=0 where id=2
+2020-11-16 21:34:48
+SELECT * FROM  producto
+2020-11-16 21:35:04
+SELECT * FROM  producto where id in (1 , 2)
+2020-11-16 21:36:15
+SELECT * FROM  producto
+2020-11-16 21:36:20
+SELECT * FROM  producto where id in (3 , 4)
+2020-11-16 21:36:42
+UPDATE producto SET estado=0 where id=3
+2020-11-16 21:36:48
+SELECT * FROM  producto
+2020-11-16 21:36:55
+SELECT * FROM  producto where id in (2 , 4)
+2020-11-16 21:37:01
+UPDATE producto SET estado=0 where id=4
+2020-11-16 21:37:03
+SELECT * FROM  producto
+2020-11-16 21:37:10
+SELECT * FROM  producto where id in (2 , 4)
+2020-11-16 21:37:52
+SELECT * FROM  producto
+2020-11-16 21:38:01
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 21:40:03
+SELECT * FROM  producto
+2020-11-16 21:40:08
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 21:41:13
+SELECT * FROM  producto
+2020-11-16 21:41:19
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 21:41:55
+SELECT * FROM  producto
+2020-11-16 21:41:59
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 21:42:20
+SELECT * FROM  producto
+2020-11-16 21:42:25
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 21:55:24
+SELECT * FROM  producto
+2020-11-16 21:55:29
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 21:56:00
+SELECT * FROM  producto
+2020-11-16 21:56:04
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 21:56:18
+SELECT * FROM  producto
+2020-11-16 21:56:23
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 21:56:47
+SELECT * FROM  producto
+2020-11-16 21:56:50
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 22:22:51
+SELECT * FROM  producto
+2020-11-16 22:22:55
+SELECT * FROM  producto where id in ()
+2020-11-16 22:23:48
+SELECT * FROM  producto
+2020-11-16 22:23:52
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 22:25:50
+SELECT * FROM  producto
+2020-11-16 22:25:54
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 22:26:46
+SELECT * FROM  producto
+2020-11-16 22:27:16
+SELECT * FROM  producto
+2020-11-16 22:27:22
+SELECT * FROM  producto
+2020-11-16 22:27:30
+SELECT * FROM  producto
+2020-11-16 22:27:34
+SELECT * FROM  producto where id in ()
+2020-11-16 22:28:01
+SELECT * FROM  producto
+2020-11-16 22:28:05
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 22:28:48
+SELECT * FROM  producto
+2020-11-16 22:28:52
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 22:31:15
+SELECT * FROM  producto
+2020-11-16 22:31:20
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 22:45:18
+SELECT * FROM  producto
+2020-11-16 22:46:17
+SELECT * FROM  producto
+2020-11-16 22:46:39
+SELECT * FROM  producto
+2020-11-16 22:47:37
+SELECT * FROM  producto
+2020-11-16 22:54:31
+SELECT * FROM  producto
+2020-11-16 22:54:36
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 22:54:58
+SELECT * FROM  producto
+2020-11-16 22:55:22
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 22:57:53
+SELECT * FROM  producto
+2020-11-16 22:57:59
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 22:59:49
+SELECT * FROM  producto
+2020-11-16 22:59:54
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-16 23:00:37
+SELECT * FROM  producto
+2020-11-16 23:00:43
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-17 00:01:34
+SELECT * FROM  producto
+2020-11-17 00:01:39
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-17 00:01:42
+SELECT * FROM  producto
+2020-11-17 00:02:30
+SELECT * FROM  producto
+2020-11-17 00:02:36
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-17 00:02:40
+SELECT * FROM  producto
+2020-11-17 00:02:48
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-17 00:29:24
+SELECT * FROM  producto
+2020-11-17 00:29:30
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5)
+2020-11-17 00:29:59
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-17 00:42:02
+SELECT * FROM  producto
+2020-11-17 00:42:08
+SELECT * FROM  producto where id in (2 , 4)
+2020-11-17 00:42:16
+SELECT * FROM  producto
+2020-11-17 00:43:21
+SELECT * FROM  producto
+2020-11-17 00:43:58
+SELECT * FROM  producto
+2020-11-17 00:44:38
+SELECT * FROM  producto
+2020-11-17 00:54:19
+SELECT * FROM  producto
+2020-11-17 01:00:58
+SELECT * FROM  producto
+2020-11-17 01:03:15
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-17 01:06:09
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-17 01:06:18
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-17 01:06:30
+SELECT * FROM  producto
+2020-11-17 01:07:20
+SELECT * FROM  producto
+2020-11-17 01:17:09
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-11-17 01:17:54
+SELECT * FROM `usuario` WHERE e_mail = 'lis.mendoza.cc@gmail.com' AND contrasenia = 'lola' 
+2020-11-17 01:18:48
+SELECT * FROM `usuario` WHERE e_mail = 'pancho@gmail.com' AND contrasenia = 'lola' 
+2020-11-17 01:26:35
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-17 01:27:03
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-17 01:32:04
+SELECT * FROM  producto
+2020-11-17 01:32:44
+SELECT * FROM  producto
+2020-11-17 01:34:37
+SELECT * FROM  producto
+2020-11-17 01:34:45
+SELECT * FROM  producto
+2020-11-17 01:35:55
+SELECT * FROM  producto
+2020-11-17 01:43:05
+INSERT INTO `producto` (`nombre`, `descripcion`, `foto`, `fecha_ingreso`, `fecha_vencimiento`, `precio_costo`, `precio_con_ganancia`, `cantidad`, `stock_minimo`, `stock_maximo`, `estado`) VALUES ('Delineador','Delineador lápiz punta fina ','delineador.JPG','2020-11-24','2020-12-24','','','50','5','100',1)
+2020-11-17 01:49:34
+INSERT INTO `producto` (`nombre`, `descripcion`, `foto`, `fecha_ingreso`, `fecha_vencimiento`, `precio_costo`, `precio_con_ganancia`, `cantidad`, `stock_minimo`, `stock_maximo`, `estado`) VALUES ('Delineador','Delineador negro lápiz punta fina ','delineadorlapiz.JPG','2020-11-25','2020-12-23','300','','50','5','100',1)
+2020-11-17 01:50:30
+INSERT INTO `producto` (`nombre`, `descripcion`, `foto`, `fecha_ingreso`, `fecha_vencimiento`, `precio_costo`, `precio_con_ganancia`, `cantidad`, `stock_minimo`, `stock_maximo`, `estado`) VALUES ('Delineador','Delineador negro lápiz punta fina ','delineadorlapiz.JPG','2020-11-25','2020-12-23','300','','50','5','100',1)
+2020-11-17 01:52:57
+INSERT INTO `producto` (`nombre`, `descripcion`, `foto`, `fecha_ingreso`, `fecha_vencimiento`, `precio_costo`, `precio_con_ganancia`, `cantidad`, `stock_minimo`, `stock_maximo`, `estado`) VALUES ('Delineador','Delineador negro lápiz punta fina ','delineadorlapiz.JPG','2020-11-25','2020-12-23','200','300','50','5','100',1)
+2020-11-17 01:53:20
+SELECT * FROM  producto
+2020-11-17 01:55:43
+SELECT * FROM  producto
+2020-11-17 01:56:59
+SELECT * FROM  producto
+2020-11-17 01:59:18
+SELECT * FROM  producto
+2020-11-17 02:00:32
+SELECT * FROM  producto
+2020-11-17 02:01:18
+SELECT * FROM  producto
+2020-11-17 02:01:47
+SELECT * FROM  producto
+2020-11-17 02:01:54
+SELECT * FROM  producto
+2020-11-17 02:01:59
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 02:12:52
+SELECT * FROM  producto
+2020-11-17 02:12:59
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 02:13:20
+SELECT * FROM  producto
+2020-11-17 02:13:29
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 02:15:11
+SELECT * FROM  producto
+2020-11-17 02:15:17
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 02:38:10
+SELECT * FROM  producto
+2020-11-17 02:38:15
+SELECT * FROM  producto where id in ()
+2020-11-17 02:38:21
+SELECT * FROM  producto
+2020-11-17 02:38:31
+SELECT * FROM  producto
+2020-11-17 02:38:35
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 02:39:40
+SELECT * FROM  producto
+2020-11-17 02:41:02
+SELECT * FROM  producto
+2020-11-17 02:41:07
+SELECT * FROM  producto where id in (1 , 3 , 4)
+2020-11-17 02:41:51
+SELECT * FROM  producto
+2020-11-17 02:41:56
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 02:43:39
+SELECT * FROM  producto
+2020-11-17 02:43:44
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 02:45:33
+SELECT * FROM  producto
+2020-11-17 02:45:40
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 02:46:18
+SELECT * FROM  producto
+2020-11-17 02:46:23
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 02:47:01
+SELECT * FROM  producto
+2020-11-17 02:47:08
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 02:49:04
+SELECT * FROM  producto
+2020-11-17 02:49:09
+SELECT * FROM  producto where id in (4 , 6)
+2020-11-17 02:49:42
+SELECT * FROM  producto
+2020-11-17 02:49:48
+SELECT * FROM  producto where id in (4 , 5)
+2020-11-17 02:50:28
+SELECT * FROM  producto
+2020-11-17 02:50:35
+SELECT * FROM  producto where id in (4 , 5)
+2020-11-17 02:52:08
+SELECT * FROM  producto
+2020-11-17 02:52:14
+SELECT * FROM  producto where id in (5 , 6)
+2020-11-17 02:56:20
+SELECT * FROM  producto
+2020-11-17 02:56:26
+SELECT * FROM  producto where id in (5 , 6)
+2020-11-17 02:57:24
+SELECT * FROM  producto
+2020-11-17 02:57:29
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 02:59:58
+SELECT * FROM  producto
+2020-11-17 03:00:04
+SELECT * FROM  producto where id in (5 , 6)
+2020-11-17 03:01:01
+SELECT * FROM  producto
+2020-11-17 03:01:06
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 03:01:39
+SELECT * FROM  producto
+2020-11-17 03:01:45
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 03:02:39
+SELECT * FROM  producto
+2020-11-17 03:02:45
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 03:06:16
+SELECT * FROM  producto
+2020-11-17 03:06:19
+SELECT * FROM  producto where id in ()
+2020-11-17 03:06:27
+SELECT * FROM  producto
+2020-11-17 03:06:32
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 03:07:00
+SELECT * FROM  producto
+2020-11-17 03:07:04
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 03:07:45
+SELECT * FROM  producto
+2020-11-17 03:07:50
+SELECT * FROM  producto where id in (5 , 6)
+2020-11-17 03:08:30
+SELECT * FROM  producto
+2020-11-17 03:08:35
+SELECT * FROM  producto where id in (3 , 5 , 6)
+2020-11-17 03:09:52
+SELECT * FROM  producto
+2020-11-17 03:09:57
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 03:15:48
+SELECT * FROM  producto
+2020-11-17 03:18:51
+SELECT * FROM  producto
+2020-11-17 03:22:46
+SELECT * FROM  producto
+2020-11-17 03:22:50
+SELECT * FROM  producto where id in (3 , 4)
+2020-11-17 03:23:33
+SELECT * FROM  producto
+2020-11-17 03:23:39
+SELECT * FROM  producto where id in (2 , 5 , 6)
+2020-11-17 03:24:01
+SELECT * FROM  producto
+2020-11-17 03:24:08
+SELECT * FROM  producto where id in (5 , 6)
+2020-11-17 03:25:10
+SELECT * FROM  producto
+2020-11-17 03:25:15
+SELECT * FROM  producto where id in (5 , 6)
+2020-11-17 03:33:36
+SELECT * FROM  producto
+2020-11-17 03:36:06
+SELECT * FROM  producto
+2020-11-17 03:36:12
+SELECT * FROM  producto where id in (1 , 2 , 3)
+2020-11-17 03:37:08
+SELECT * FROM  producto
+2020-11-17 03:37:17
+SELECT * FROM  producto where id in (3 , 5)
+2020-11-17 03:38:33
+SELECT * FROM  producto
+2020-11-17 03:38:39
+SELECT * FROM  producto where id in (3 , 4 , 5)
+2020-11-17 03:39:21
+SELECT * FROM  producto
+2020-11-17 03:39:27
+SELECT * FROM  producto where id in (3 , 5)
+2020-11-17 03:39:46
+SELECT * FROM  producto
+2020-11-17 03:39:52
+SELECT * FROM  producto where id in (1 , 3 , 5)
+2020-11-17 03:40:19
+SELECT * FROM  producto
+2020-11-17 03:40:26
+SELECT * FROM  producto where id in (1 , 6)
+2020-11-17 03:41:00
+SELECT * FROM  producto
+2020-11-17 03:41:05
+SELECT * FROM  producto where id in (1 , 2)
+2020-11-17 03:41:36
+SELECT * FROM  producto
+2020-11-17 03:41:42
+SELECT * FROM  producto where id in (2 , 6)
+2020-11-17 03:43:14
+SELECT * FROM  producto
+2020-11-17 03:43:22
+SELECT * FROM  producto where id in (4 , 5)
+2020-11-17 03:44:47
+SELECT * FROM  producto
+2020-11-17 03:44:53
+SELECT * FROM  producto where id in (3 , 5)
+2020-11-17 03:45:43
+SELECT * FROM  producto
+2020-11-17 03:45:49
+SELECT * FROM  producto where id in (4 , 5)
+2020-11-17 03:46:26
+SELECT * FROM  producto
+2020-11-17 03:46:32
+SELECT * FROM  producto where id in (4 , 6)
+2020-11-17 03:47:18
+SELECT * FROM  producto
+2020-11-17 03:47:24
+SELECT * FROM  producto where id in (4 , 5)
+2020-11-17 03:49:48
+SELECT * FROM  producto
+2020-11-17 03:49:55
+SELECT * FROM  producto where id in (1 , 5)
+2020-11-17 03:51:10
+SELECT * FROM  producto
+2020-11-17 03:51:15
+SELECT * FROM  producto where id in (4 , 5)
+2020-11-17 03:52:52
+SELECT * FROM  producto
+2020-11-17 03:52:59
+SELECT * FROM  producto where id in (2 , 4 , 5)
+2020-11-17 03:54:29
+SELECT * FROM  producto
+2020-11-17 03:54:40
+SELECT * FROM  producto where id in (1 , 6)
+2020-11-17 03:56:27
+SELECT * FROM  producto
+2020-11-17 03:59:36
+SELECT * FROM  producto
+2020-11-17 03:59:42
+SELECT * FROM  producto where id in (2 , 3)
+2020-11-17 04:06:40
+SELECT * FROM  producto
+2020-11-17 04:06:47
+SELECT * FROM  producto where id in (2 , 5)
+2020-11-17 04:08:02
+SELECT * FROM  producto
+2020-11-17 04:08:10
+SELECT * FROM  producto where id in (3 , 6)
+2020-11-17 04:08:49
+SELECT * FROM  producto
+2020-11-17 04:08:57
+SELECT * FROM  producto where id in (4 , 6)
+2020-11-17 04:20:31
+SELECT * FROM  producto
+2020-11-17 04:20:39
+SELECT * FROM  producto where id in (2 , 5 , 6)
+2020-11-17 04:21:20
+SELECT * FROM  producto
+2020-11-17 04:21:28
+SELECT * FROM  producto where id in (3 , 4 , 5)
+2020-11-17 04:29:07
+SELECT * FROM  producto
+2020-11-17 04:29:13
+SELECT * FROM  producto where id in (2 , 4)
+2020-11-17 04:30:39
+SELECT * FROM  producto
+2020-11-17 04:30:45
+SELECT * FROM  producto where id in (1 , 5)
+2020-11-17 04:31:18
+SELECT * FROM  producto
+2020-11-17 04:31:24
+SELECT * FROM  producto where id in (4 , 5 , 6)
+2020-11-17 04:31:55
+SELECT * FROM  producto
+2020-11-17 04:32:02
+SELECT * FROM  producto where id in (2 , 4)
+2020-11-17 04:32:42
+SELECT * FROM  producto
+2020-11-17 04:32:48
+SELECT * FROM  producto where id in (2 , 4)
+2020-11-17 04:33:05
+SELECT * FROM  producto
+2020-11-17 04:33:11
+SELECT * FROM  producto where id in (2 , 4)
+2020-11-17 04:35:31
+SELECT * FROM  producto
+2020-11-17 04:35:38
+SELECT * FROM  producto where id in (2 , 3)
+2020-11-17 04:40:02
+SELECT * FROM  producto
+2020-11-17 04:40:07
+SELECT * FROM  producto where id in (4 , 5 , 6)
+2020-11-17 04:41:05
+SELECT * FROM  producto
+2020-11-17 04:41:35
+SELECT * FROM  producto
+2020-11-17 04:41:40
+SELECT * FROM  producto where id in (3 , 4 , 5)
+2020-11-17 04:42:22
+SELECT * FROM  producto
+2020-11-17 04:43:51
+SELECT * FROM  producto where id in (3 , 5)
+2020-11-17 04:46:06
+SELECT * FROM  producto
+2020-11-17 04:46:14
+SELECT * FROM  producto where id in (3 , 4)
+2020-11-17 04:47:39
+SELECT * FROM  producto
+2020-11-17 04:48:06
+SELECT * FROM  producto
+2020-11-17 04:48:53
+SELECT * FROM  producto
+2020-11-17 04:48:58
+SELECT * FROM  producto where id in (1 , 2)
+2020-11-17 04:49:30
+SELECT * FROM  producto
+2020-11-17 04:49:37
+SELECT * FROM  producto where id in (2 , 5)
+2020-11-17 04:50:09
+SELECT * FROM  producto
+2020-11-17 04:50:15
+SELECT * FROM  producto where id in (4 , 5)
+2020-11-17 04:51:00
+SELECT * FROM  producto
+2020-11-17 04:51:07
+SELECT * FROM  producto where id in (2 , 6)
+2020-11-17 04:52:13
+SELECT * FROM  producto
+2020-11-17 04:52:19
+SELECT * FROM  producto where id in (3 , 4)
+2020-11-17 04:52:51
+SELECT * FROM  producto
+2020-11-17 04:52:58
+SELECT * FROM  producto where id in (3 , 4)
+2020-11-17 04:53:25
+SELECT * FROM  producto
+2020-11-17 04:53:31
+SELECT * FROM  producto where id in (3 , 5)
+2020-11-17 04:54:51
+SELECT * FROM  producto
+2020-11-17 04:54:58
+SELECT * FROM  producto where id in (2 , 5)
+2020-11-17 04:55:59
+SELECT * FROM  producto
+2020-11-17 04:56:12
+SELECT * FROM  producto
+2020-11-17 04:56:21
+SELECT * FROM  producto where id in (1 , 5 , 6)
+2020-11-17 04:58:10
+SELECT * FROM  producto
+2020-11-17 04:58:15
+SELECT * FROM  producto where id in (2 , 4)
+2020-11-17 04:59:03
+SELECT * FROM  producto
+2020-11-17 04:59:10
+SELECT * FROM  producto where id in (4 , 5)
+2020-11-17 05:01:27
+SELECT * FROM  producto
+2020-11-17 05:01:34
+SELECT * FROM  producto where id in (1 , 6)
+2020-11-17 05:02:00
+SELECT * FROM  producto
+2020-11-17 05:02:04
+SELECT * FROM  producto where id in (3 , 6)
+2020-11-17 05:10:07
+SELECT * FROM  producto
+2020-11-17 05:10:12
+SELECT * FROM  producto where id in (3 , 5)
+2020-11-17 05:10:55
+SELECT * FROM  producto
+2020-11-17 05:11:00
+SELECT * FROM  producto where id in (1 , 6)
+2020-11-17 05:13:05
+SELECT * FROM  producto
+2020-11-17 05:13:11
+SELECT * FROM  producto where id in (4 , 6)
+2020-11-17 05:17:09
+SELECT * FROM  producto
+2020-11-17 05:17:14
+SELECT * FROM  producto where id in (2 , 6)
+2020-11-17 05:19:50
+SELECT * FROM  producto
+2020-11-17 05:19:56
+SELECT * FROM  producto where id in (3 , 4)
+2020-11-17 05:20:31
+SELECT * FROM  producto
+2020-11-17 05:20:36
+SELECT * FROM  producto where id in (3 , 4 , 5 , 6)
+2020-11-17 05:22:02
+SELECT * FROM  producto
+2020-11-17 05:22:06
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 05:22:57
+SELECT * FROM  producto
+2020-11-17 05:23:03
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 05:25:30
+SELECT * FROM  producto
+2020-11-17 05:29:25
+SELECT * FROM  producto
+2020-11-17 05:30:19
+SELECT * FROM  producto
+2020-11-17 05:32:44
+SELECT * FROM  producto
+2020-11-17 05:32:59
+SELECT * FROM  producto
+2020-11-17 05:33:05
+SELECT * FROM  producto where id in (2 , 3)
+2020-11-17 05:37:18
+SELECT * FROM  producto
+2020-11-17 05:37:23
+SELECT * FROM  producto where id in (3 , 4)
+2020-11-17 05:38:20
+SELECT * FROM  producto
+2020-11-17 05:38:26
+SELECT * FROM  producto where id in (2 , 4)
+2020-11-17 05:38:39
+SELECT * FROM  producto
+2020-11-17 05:38:44
+SELECT * FROM  producto where id in (2 , 3)
+2020-11-17 05:39:33
+SELECT * FROM  producto
+2020-11-17 05:39:39
+SELECT * FROM  producto where id in (3 , 5)
+2020-11-17 05:42:43
+SELECT * FROM  producto
+2020-11-17 05:42:51
+SELECT * FROM  producto where id in (2 , 3)
+2020-11-17 05:47:23
+SELECT * FROM  producto
+2020-11-17 05:47:28
+SELECT * FROM  producto where id in (4 , 5)
+2020-11-17 05:48:30
+SELECT * FROM  producto
+2020-11-17 05:48:35
+SELECT * FROM  producto where id in (4 , 5 , 6)
+2020-11-17 05:49:07
+SELECT * FROM  producto
+2020-11-17 05:49:35
+SELECT * FROM  producto
+2020-11-17 05:49:41
+SELECT * FROM  producto where id in (5 , 6)
+2020-11-17 05:54:30
+SELECT * FROM  producto
+2020-11-17 05:54:53
+SELECT * FROM  producto
+2020-11-17 05:56:32
+SELECT * FROM  producto
+2020-11-17 05:56:38
+SELECT * FROM  producto where id in (3 , 6)
+2020-11-17 05:58:07
+SELECT * FROM  producto
+2020-11-17 05:58:13
+SELECT * FROM  producto where id in (1 , 5)
+2020-11-17 05:58:41
+SELECT * FROM  producto
+2020-11-17 05:58:48
+SELECT * FROM  producto where id in (3 , 6)
+2020-11-17 05:59:24
+SELECT * FROM  producto
+2020-11-17 05:59:37
+SELECT * FROM  producto
+2020-11-17 05:59:43
+SELECT * FROM  producto where id in (3 , 5)
+2020-11-17 06:00:28
+SELECT * FROM  producto
+2020-11-17 06:00:34
+SELECT * FROM  producto where id in (1 , 6)
+2020-11-17 06:43:44
+SELECT * FROM `usuario` WHERE e_mail = 'pancho@gmail.com' AND contrasenia = 'lola' 
+2020-11-17 06:44:46
+SELECT * FROM  producto
+2020-11-17 06:44:57
+SELECT * FROM  producto
+2020-11-17 06:50:39
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-17 06:50:50
+SELECT * FROM  producto
+2020-11-17 06:50:59
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 19:51:40
+UPDATE producto SET estado=0 where id=1
+2020-11-17 19:51:44
+SELECT * FROM  producto
+2020-11-17 19:51:53
+SELECT * FROM  producto where id in (1 , 2 , 3 , 4 , 5 , 6)
+2020-11-17 19:53:40
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-17 19:53:58
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-17 19:54:38
+SELECT * FROM `usuario` WHERE e_mail = 'lolaloca@gmail.com' AND contrasenia = 'lola' 
+2020-11-17 19:55:00
+SELECT * FROM `usuario` WHERE e_mail = 'pancho@gmail.com' AND contrasenia = 'lola' 
+2020-11-17 20:11:13
+SELECT * FROM `usuario` WHERE e_mail = 'pancho@gmail.com' AND contrasenia = 'lola' 
+2020-11-17 22:41:44
+SELECT * FROM  producto
+2020-11-17 22:45:18
+SELECT * FROM  producto
+2020-11-17 22:48:58
+SELECT * FROM  producto
+2020-11-17 22:52:03
+SELECT * FROM  producto
+2020-11-17 22:55:24
+SELECT * FROM  producto
+2020-11-17 22:58:10
+SELECT * FROM  producto
+2020-11-17 23:01:41
+SELECT * FROM  producto
+2020-11-17 23:05:22
+SELECT * FROM  producto
+2020-11-17 23:12:37
+SELECT * FROM  producto
+2020-11-17 23:14:30
+SELECT * FROM  producto
+2020-11-17 23:15:12
+SELECT * FROM  producto
+2020-11-17 23:17:09
+SELECT * FROM  producto
+2020-11-17 23:17:51
+SELECT * FROM  producto
+2020-11-17 23:18:28
+SELECT * FROM  producto
+2020-11-17 23:19:23
+SELECT * FROM  producto
+2020-11-17 23:19:42
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-17 23:20:43
+INSERT INTO `usuario`(`e_mail`, `nombre`, `apellido`, `dni`, `fecha_nacimiento`, `domicilio`, `telefono`, `fecha_alta`, `contrasenia`, `pregunta_secreta`, `respuesta_secreta`, `referente`, `bonificacion`, `id_rol`,`id_negocio`) VALUES('gonzalo@gmail.com','gonzalo','dire','36876545','2020-11-17','','',now(),'lola','¿Cúal es el nombre de tu primer mascota?','pinki','19',0,2,2)
+2020-11-17 23:23:34
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-17 23:26:17
+INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('','','donking.@gmail.com','avenida siempre viva 123','23423225','Rimel.JPG','','3000','35','15')
+2020-11-17 23:33:01
+INSERT INTO `producto` (`nombre`, `descripcion`, `foto`, `fecha_ingreso`, `fecha_vencimiento`, `precio_costo`, `precio_con_ganancia`, `cantidad`, `stock_minimo`, `stock_maximo`, `estado`) VALUES ('Sombra Pink','Sombra con brillo color sola 10 ml','sombra.JPG','2020-11-17','2020-11-28','200','400','50','5','100',1)
+2020-11-17 23:33:29
+SELECT * FROM  producto
+2020-11-17 23:34:55
+SELECT * FROM  producto
+2020-11-17 23:35:42
+SELECT * FROM  producto
+2020-11-17 23:36:41
+SELECT * FROM  producto
+2020-11-17 23:37:53
+SELECT * FROM  producto
+2020-11-17 23:47:08
+UPDATE producto SET estado=0 where id=1
+2020-11-17 23:47:11
+SELECT * FROM  producto
+2020-11-17 23:47:19
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-17 23:47:30
+SELECT * FROM  usuario
+2020-11-17 23:52:36
+SELECT * FROM  usuario
+2020-11-17 23:55:11
+SELECT * FROM  usuario
+2020-11-17 23:56:33
+SELECT * FROM  producto
+2020-11-17 23:57:24
+SELECT * FROM `usuario` WHERE e_mail = 'gonzalo@gmail.com' AND contrasenia = 'lola' 
+2020-11-17 23:57:40
+SELECT * FROM  producto
+2020-11-17 23:57:45
+SELECT * FROM  producto where id in (1 , 2 , 4 , 5 , 6)
+2020-11-17 23:58:06
+SELECT * FROM  usuario
+2020-11-17 23:59:08
+SELECT * FROM  producto
+2020-11-18 00:04:33
+SELECT * FROM  usuario
+2020-11-18 00:05:14
+SELECT * FROM  usuario
+2020-11-18 00:06:50
+SELECT * FROM  usuario
+2020-11-18 00:13:49
+SELECT * FROM  usuario
+2020-11-18 00:14:09
+SELECT * FROM `usuario` WHERE e_mail = 'gonzalo@gmail.com' AND contrasenia = 'lola' 
+2020-11-18 00:14:15
+SELECT * FROM  usuario
+2020-11-18 00:20:24
+SELECT * FROM  usuario
+2020-11-18 00:20:34
+SELECT * FROM  usuario
+2020-11-18 00:23:27
+SELECT * FROM `usuario` WHERE e_mail = 'lis@gmail.com' AND contrasenia = 'lola' 
+2020-11-18 00:23:40
+SELECT id,e_mail,nombre,apellido FROM `usuario` WHERE id_rol=2 and id_negocio=2
+2020-11-18 00:35:06
+SELECT * FROM `usuario` WHERE e_mail = 'gonzalo@gmail.com' AND contrasenia = 'lola' 
+2020-11-18 00:35:11
+SELECT * FROM  usuario
+2020-11-18 00:35:36
+SELECT * FROM  usuario
+2020-11-18 00:35:54
+SELECT * FROM  usuario
+2020-11-18 00:35:59
+SELECT * FROM  usuario
+2020-11-18 00:39:02
+SELECT * FROM  usuario
+2020-11-18 00:41:44
+SELECT * FROM  usuario
+2020-11-18 01:11:50
+SELECT * FROM `usuario` WHERE e_mail = 'gonzalo@gmail.com' AND contrasenia = 'lola' 

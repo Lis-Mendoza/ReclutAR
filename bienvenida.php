@@ -1,8 +1,9 @@
-<div class="x-editable-area mg-b-15 pull-right">
+<div class="breadcome-list map-mg-t-40-gl shadow-reset">
+
 	<div class="container-fluid"> <br>
-		<div class="row">
-			<div class="col-lg-9 fa-pull-right">
-				<div class="x-editable-list shadow-reset">
+		
+			<div>
+			
 					<div class="alert-title">
 						<div class="row">
 							<div class="col-lg-4">
@@ -20,5 +21,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
+
+
+	

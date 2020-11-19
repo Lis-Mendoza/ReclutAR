@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-4"></div>
-			<form id="adminpro-form" class="adminpro-form" action="validacionlogin.php" method="post">
+			<form id="adminpro-form" class="adminpro-form" action="validacion-login.php" method="post">
 				<div class="col-lg-4">
 					<div class="login-bg">
 						<div class="row">

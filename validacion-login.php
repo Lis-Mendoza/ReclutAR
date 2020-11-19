@@ -19,11 +19,20 @@ $password= $_POST['password'];
 if(count($resultado)==1){
 	    session_set("e_mail",$resultado[0]['e_mail']);
 		session_set("uid",$resultado[0]['id_cuenta']);
+		session_set("nid",$resultado[0]['id_negocio']);
 		session_var_unset("error");
 	
-		
+	if($resultado[0]['id_rol']==1){
+	    session_set("id_rol",1);
 		header("Location: pantalla-principal.php");
 	
+	}else{ 
+		 session_set("id_rol",2);
+		header("Location: pantalla-principal-revendedores.php");
+	
+	}
+	
+		
 	}else{ 
 		$error= "No se pudo validar el usuario!!";
 		session_set("error",$error);

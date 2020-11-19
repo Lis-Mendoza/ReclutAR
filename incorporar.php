@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-4"></div>
-			<form id="adminpro-form" class="adminpro-form" action="insertarrevendedor.php" method="post">
+			<form id="adminpro-form" class="adminpro-form" action="insertar-revendedor.php" method="post">
 				<div class="login-form-area mg-t-30 mg-b-15">
 					<div class="container-fluid">
 						<div class="row">
@@ -177,7 +177,7 @@
 														<select name="referente" required>
 															<option value="none" selected="" disabled="">Selecciona quien referencia la incorporacion</option>
 															<?php
-                                                            include("validarreferente.php");
+                                                            include("validar-referente.php");
 														
                                                                 ?>
 														</select>
@@ -190,12 +190,12 @@
 												<div class="col-lg-4"></div>
 
 												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-												<a href="index.php?menu=login">
+												<a href="pantalla-principal.php?menu=bienvenida">
                                                 <button type="button" class="btn btn-custon-four btn-primary"   >&nbsp;&nbsp;Atras &nbsp;&nbsp;</button>
                                                 </a>
 												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-												<a href="index.php?menu=registro-perfil-negocio">
-                                                <button type="submit" class="btn btn-custon-four btn-primary">&nbsp;&nbsp;Siguente&nbsp;&nbsp; </button></a>
+												<a href="pantalla-principal.php?menu=bienvenida">
+                                                <button type="submit" class="btn btn-custon-four btn-primary">&nbsp;&nbsp;Incorporar&nbsp;&nbsp; </button></a>
 											
 												<br><br><br>
 

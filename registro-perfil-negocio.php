@@ -1,8 +1,11 @@
+<!-- cropper CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/cropper/cropper.min.css">
 <div class="login-form-area mg-t-30 mg-b-40">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-4"></div>
-			<form id="adminpro-form" class="adminpro-form" action="insertarnegocio.php" method="post">
+			<form id="adminpro-form" class="adminpro-form" action="insertar-negocio.php" method="post">
 				<div class="login-form-area mg-t-30 mg-b-15">
 					<div class="container-fluid">
 						<div class="row">
@@ -104,6 +107,63 @@
 											</div>
 										</div>
 										<br>
+										<div class="dual-list-box-area mg-b-15">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sparkline10-list shadow-reset">
+                                <div class="sparkline10-hd">
+                                    <div class="main-sparkline10-hd">
+                                        <h1>Elegí una imagen para tu Negocio</h1>
+                                        <div class="sparkline10-outline-icon">
+                                            <span class="sparkline10-collapse-link"><i class="fa fa-chevron-up"></i></span>
+                                           
+                                            <span class="sparkline10-collapse-close"><i class="fa fa-times"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="file-upload-inner file-upload-inner-right ts-forms">
+                                <div class="sparkline10-graph">
+                                    <div class="basic-login-form-ad">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="dual-list-box-inner">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="image-crop">
+                                                                <img src="img/cropper/1.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="preview-img-pro-ad">
+																<br></br>
+                                                                <div class="img-preview img-preview-custom"></div>
+                                                                <h4 class="comon-method">Ajustar Imagen</h4>
+                                                               
+                                                                <div class="btn-group images-cropper-pro">
+                                                                    <label title="Upload image file" for="inputImage" class="btn btn-primary img-cropper-cp">
+                                                                        <input type="file" accept="image/*" name="foto" id="inputImage" class="hide " 
+																			   > Elegir Imagen
+                                                                    </label>
+                                                                    
+                                                                </div>
+                                                                
+                                                                   </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+										
+										
 										
 										<div class="form-group-inner">
 											<div class="row">
@@ -114,45 +174,18 @@
 													<div class="file-upload-inner file-upload-inner-right ts-forms">
 														<div class="input append-small-btn">
 															<div class="col-lg-8 pull-right" >
-																<input type="file" name="foto" onchange="document.getElementById.value = this.value;">
+																<input type="file" type="submit" name="foto" onchange="document.getElementById.value = this.value;">
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
-										<div class="row">
-											<div class="col-lg-4">
-												<div class="login-input-head">
-													<p>Duración de Campañas</p>
-												</div>
-											</div>
-											<div class="col-lg-8">
-												<div class="interested-input-area">
-													<select name="duracion" required>
-														<option value="none" selected="" disabled="">Selecciona la duracion</option>
-														<option value="15">15 dias</option>
-                                                        <option value="20">20 dias</option>
-														<option value="30">1 mes</option>
-														<option value="60">2 meses</option>
-														<option value="90">3 meses</option>
-														<option value="120">4 meses</option>
-                                                        <option value="150">5 meses</option>
-                                                        <option value="180">6 meses</option>
-                                                        <option value="210">7 meses</option>
-                                                        <option value="240">8 meses</option>
-                                                        <option value="270">9 meses</option>
-                                                        <option value="300">10 meses</option>
-                                                        <option value="330">11 meses</option>
-                                                        <option value="360">12 meses</option>
-													</select>
-												</div>
-											</div>
-										</div>
+										
                                         <div class="row" style="">
 											<div class="col-lg-4">
 												<div class="login-input-head">
-													<p>Inicio de Campaña</p>
+													<p>Inicio de Actividad</p>
 												</div>
 											</div>
 											<br>
@@ -240,7 +273,7 @@
                                                 <button type="button" class="btn btn-custon-four btn-primary" > Atras </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 															
                                                 </a>
-														<a href="index.php?menu=login"><button type="submit" class="btn btn-custon-four btn-primary">Terminar Registro</button></a>
+														<button type="submit" class="btn btn-custon-four btn-primary">Terminar Registro</button></a>
 														<br><br><br>
 													</div>
 												</div>
@@ -259,3 +292,7 @@
 	</div>
 </div>
 <!-- login End-->
+ <!-- cropper JS
+		============================================ -->
+    <script src="js/cropper/cropper.min.js"></script>
+    <script src="js/cropper/cropper-actice.js"></script>
