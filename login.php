@@ -27,7 +27,7 @@
 							</div>
 							<div class="col-lg-8">
 								<div class="login-input-area">
-									<input type="email" name="e_mail"/>
+									<input type="email" name="e_mail" required/>
 									<i class="fa fa-user login-user" aria-hidden="true"></i>
 								</div>
 							</div>
@@ -40,7 +40,7 @@
 							</div>
 							<div class="col-lg-8">
 								<div class="login-input-area">
-									<input type="password" name="password"/>
+									<input type="password" name="password" required/>
 									<i class="fa fa-lock login-user"></i>
 								</div>
 								<div class="row">

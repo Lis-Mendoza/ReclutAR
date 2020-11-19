@@ -107,63 +107,6 @@
 											</div>
 										</div>
 										<br>
-										<div class="dual-list-box-area mg-b-15">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="sparkline10-list shadow-reset">
-                                <div class="sparkline10-hd">
-                                    <div class="main-sparkline10-hd">
-                                        <h1>Elegí una imagen para tu Negocio</h1>
-                                        <div class="sparkline10-outline-icon">
-                                            <span class="sparkline10-collapse-link"><i class="fa fa-chevron-up"></i></span>
-                                           
-                                            <span class="sparkline10-collapse-close"><i class="fa fa-times"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-								<div class="file-upload-inner file-upload-inner-right ts-forms">
-                                <div class="sparkline10-graph">
-                                    <div class="basic-login-form-ad">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="dual-list-box-inner">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="image-crop">
-                                                                <img src="img/cropper/1.jpg" alt="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="preview-img-pro-ad">
-																<br></br>
-                                                                <div class="img-preview img-preview-custom"></div>
-                                                                <h4 class="comon-method">Ajustar Imagen</h4>
-                                                               
-                                                                <div class="btn-group images-cropper-pro">
-                                                                    <label title="Upload image file" for="inputImage" class="btn btn-primary img-cropper-cp">
-                                                                        <input type="file" accept="image/*" name="foto" id="inputImage" class="hide " 
-																			   > Elegir Imagen
-                                                                    </label>
-                                                                    
-                                                                </div>
-                                                                
-                                                                   </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-										
-										
 										
 										<div class="form-group-inner">
 											<div class="row">
