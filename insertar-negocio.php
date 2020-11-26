@@ -9,16 +9,16 @@
 
 
 
-$nombre= $_POST['nombre']; 
-$rubro= $_POST['rubro'];
-$e_mail= $_POST['e_mail']; 
-$domicilio= $_POST['domicilio']; 
-$telefono= $_POST['telefono']; 
-$foto = $_POST['foto'];
-$fecha_inicio = $_POST['fecha_inicio'];
-$minimo = $_POST['minimo'];
-$porcentaje_revendedor = $_POST['porcentaje_revendedor'];
-$bonificaciones = $_POST['bonificaciones'];
+$nombre=addslashes($_POST['nombre']); 
+$rubro=addslashes($_POST['rubro']);
+$e_mail=addslashes($_POST['e_mail']); 
+$domicilio=addslashes($_POST['domicilio']); 
+$telefono=addslashes($_POST['telefono']); 
+$foto =addslashes($_POST['foto']);
+$fecha_inicio =addslashes($_POST['fecha_inicio']);
+$minimo =addslashes($_POST['minimo']);
+$porcentaje_revendedor =addslashes($_POST['porcentaje_revendedor']);
+$bonificaciones =addslashes($_POST['bonificaciones']);
 
 
 	$consulta="INSERT INTO `negocio`(`nombre`, `rubro`, `e_mail`, `domicilio`, `telefono`, `foto`,  `fecha_inicio`, `minimo`, `porcentaje_revendedor`, `bonificaciones`) VALUES('".$nombre."','".$rubro."','".$e_mail."','".$domicilio."','".$telefono."','".$foto."','".$fecha_inicio."','".$minimo."','".$porcentaje_revendedor."','".$bonificaciones."')";

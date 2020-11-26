@@ -1,18 +1,17 @@
 <?php
 
-include ("funciones.php");
+include( "funciones.php" );
 
-include ("database_min.php");
-
-
-
-$nombre[]= $_POST["nombre"];
+include( "database_min.php" );
 
 
-$consulta="SELECT * FROM  producto where id in (".$nombre[0].")";
-$resultado=db_query($consulta);
+$nombre[] = $_POST[ "nombre" ];
 
-echo"<div class='login-title'>
+
+$consulta = "SELECT * FROM  producto where id in (" . $nombre[ 0 ] . ")";
+$resultado = db_query( $consulta );
+
+echo "<div class='login-title'>
 	 									
 		<h3>Expandí tu Negocio al Maximo</h3>
 												
@@ -20,7 +19,7 @@ echo"<div class='login-title'>
 	
 												
 	</div>";
-	
+
 echo " <table  class='table table-bordered table-striped' id='tabla' >
                <thead>
 
@@ -34,22 +33,21 @@ echo " <table  class='table table-bordered table-striped' id='tabla' >
                <tbody>";
 
 
+foreach ( $resultado as $fila ) {
+  $id = ( isset( $fila[ 'id' ] ) ) ? $fila[ 'id' ] : 0;
 
-foreach($resultado as $fila) {
-	$id = (isset($fila['id'])) ? $fila['id'] : 0 ;
-	
 
-    echo "<tr>
-	<td>".$fila['id']."</td>
-			<td>".$fila['nombre']."</td>
+  echo "<tr>
+	<td>" . $fila[ 'id' ] . "</td>
+			<td>" . $fila[ 'nombre' ] . "</td>
 			
-			<td><input type='number' value='1' id='cant'/></td>
-			<td>".$fila['precio_con_ganancia']."</td>
+			<td><input type='number' value='1' id='cant' min='1' /></td>
+			<td>" . $fila[ 'precio_con_ganancia' ] . "</td>
 <td>
  <div class='btn-group project-list-action'>
 
-		<button class='btn btn-white btn-action btn-xs' value='".$id."' onclick='detalle(this.value)';><i class='fa fa-eye'></i></button>
-		<button class='btn btn-white btn-action btn-xs' value='".$id."' onclick='eliminar(this.value)';><i class='fa fa-trash'></i></button>
+		<button class='btn btn-white btn-action btn-xs' value='" . $id . "' onclick='detalle(this.value)';><i class='fa fa-eye'></i></button>
+		<button class='btn btn-white btn-action btn-xs' value='" . $id . "' onclick='eliminar(this.value)';><i class='fa fa-trash'></i></button>
 		
 	</div>
 													

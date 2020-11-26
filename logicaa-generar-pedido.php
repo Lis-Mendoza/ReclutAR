@@ -1,14 +1,14 @@
 <?php
 
-include ("funciones.php");
-include ("database_min.php");
+include( "funciones.php" );
+include( "database_min.php" );
 
-$consulta="SELECT * FROM  producto";
-$resultado=db_query($consulta);
+$consulta = "SELECT * FROM  producto";
+$resultado = db_query( $consulta );
 
-foreach($resultado as $fila){
+foreach ( $resultado as $fila ) {
 
-echo "<option value='" . $fila[ id ] . "'>  " . $fila[ nombre ] . " </option>";
+  echo "<option value='" . $fila[ id ] . "'>  " . $fila[ nombre ] . " </option>";
 }
 
 ?>

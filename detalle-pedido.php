@@ -17,17 +17,15 @@
               <thead>
                 <tr>
                   <th>Id</th>
-                  <th>Nombre</th>
-                  <th>Ingresó</th>
-                  <th>Vence</th>
+                  <th>N° Pedido </th>
+                  <th>N° Producto</th>
                   <th>Cantidad</th>
-                  <th>Estado </th>
-                  <th>Accion</th>
+                  <th>Detalle</th>
               </thead>
               <tbody>
                 <?php
-
-                include( 'logica-listar-productos.php' );
+                
+                include( 'logica-detalle-pedido.php');
 
                 ?>
               </tbody>
@@ -52,7 +50,7 @@
 
 
  Swal.fire({
-     title: 'Esta seguro que desea eliminar este producto?',
+     title: 'Esta seguro que desea eliminar este pedido?',
      icon: 'warning',
      showCancelButton: true,
      confirmButtonColor: '#3085d6',
@@ -61,7 +59,7 @@
    }).then((result) => {
      if (result.isConfirmed) {
 
-       var url = "cambio-estado-producto.php";
+       var url = "delete-pedido.php";
        $.ajax({                        
           type: "POST",                
           url: url,                    
@@ -69,7 +67,7 @@
           success: function(data)            
           {  
           Swal.fire({
-           title: 'El Producto se elimino Exitosamente!',
+           title: 'Su pedido se elimino Exitosamente!',
            icon: 'success',
            showCancelButton: false,
            confirmButtonColor: '#3085d6',
